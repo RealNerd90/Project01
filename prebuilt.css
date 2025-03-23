@@ -296,7 +296,7 @@ html {
 .breadcrumb {
     width: 1450px;
     height: 50px;
-    margin-left: 434px;
+    margin-left: 486px;
     margin-top: -1210px;
 }
 .bread {
@@ -322,7 +322,7 @@ html {
 .results-count {
     font-size: 17px;
     color: white;
-    margin-left: 850px;
+    margin-left: 830px;
     margin-top: -25px;
 }
 
@@ -330,7 +330,7 @@ html {
     position: relative;
     height: 25px;
     margin-top: -30px;
-    margin-left: 1100px;
+    margin-left: 1070px;
 }
 
 .sort-dropdown select {
@@ -346,14 +346,9 @@ html {
     color: black; 
 }
 
-.sort-dropdown select:hover,
-.sort-dropdown select:focus {
-    border-color: #FF4F64;
-}
-
 hr {
-    width: 70%;
-    margin-left: 450px;
+    width: 1299px;
+    margin-left: 500px;
 }
 
 .product-grid {
@@ -376,7 +371,7 @@ hr {
     box-shadow: 0 3px 8px rgb(56, 55, 55);
 }
 .badge {
-    background: green;
+    
     color: white;
     padding: 5px 10px;
     border-radius: 5px;
@@ -431,7 +426,7 @@ hr {
     margin-left: -10px;   
 }
 .last-section {
-    background-image: url(lastimg.jpg);
+    background-image: url(prebuiltimages/lastimg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
