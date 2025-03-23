@@ -11,11 +11,6 @@ body {
     background-color: black;
 }
 
-html {
-    height: 100%;
-    scroll-behavior: smooth;
-}
-
 .navbar {
     display: flex;
     background-color: black;
@@ -374,7 +369,7 @@ html {
     width: 600px;
     height: 600px;
     margin-left: 1100px;
-    margin-top: -650px;
+    margin-top: -600px;
 }
 .particular-part3 h3 {
     color: #FF4F64;

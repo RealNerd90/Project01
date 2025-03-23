@@ -8,11 +8,6 @@ body {
     flex-direction: column;
     font-family: "Cinzel", serif;
 }
-html {
-    height: 100%;
-    scroll-behavior: smooth;
-    min-height: 100%;
-}
 
 .navbar {
     display: flex;

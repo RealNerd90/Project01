@@ -11,10 +11,6 @@ body {
     font-family: "Cinzel", serif;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 .navbar {
     display: flex;
     background-color: black;
@@ -210,7 +206,7 @@ html {
 
 .part3 {
     margin-top: 50px;
-    margin-left:110px;
+    margin-left: 110px;
     width: 800px;
     border-radius: 10px;
     transition: transform 0.3s ease-in-out;
@@ -299,6 +295,7 @@ html {
     margin-left: 486px;
     margin-top: -1210px;
 }
+
 .bread {
     position: relative;
     font-size: 18px;
@@ -337,13 +334,13 @@ html {
     font-family: "Cinzel", serif;
     padding: 8px 12px;
     width: 240px;
-    border: 1px solid white; 
+    border: 1px solid white;
     border-radius: 5px;
     background-color: white;
     cursor: pointer;
     font-weight: 500;
     font-size: 14px;
-    color: black; 
+    color: black;
 }
 
 hr {
@@ -354,11 +351,12 @@ hr {
 .product-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    gap: 30px;
     max-width: 1300px;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 500px;
 }
+
 .product-card {
     background: linear-gradient(#202020, black);
     border-radius: 10px;
@@ -370,33 +368,32 @@ hr {
 .product-card:hover {
     box-shadow: 0 3px 8px rgb(56, 55, 55);
 }
-.badge {
-    
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-    display: inline-block;
-    margin-bottom: 10px;
-}
+
+
 .product-card img {
     width: 80%;
     border-radius: 10px;
 }
+
 .product-card h2 {
     color: white;
     font-size: 18px;
     margin: 10px 0;
 }
-.specs, .warranty {
+
+.specs,
+.warranty {
     font-size: 14px;
     color: white;
 }
+
 .price {
     font-size: 22px;
     color: red;
     font-weight: bold;
     margin: 10px 0;
 }
+
 .product-card button {
     background: #FF4F64;
     border: none;
@@ -407,24 +404,139 @@ hr {
     cursor: pointer;
     transition: 0.3s;
 }
+
 .product-card button:hover {
+    background: #ff354d;
+}
+.product-card1 {
+    background: linear-gradient(#202020, black);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+.product-card1:hover {
+    box-shadow: 0 3px 8px rgb(56, 55, 55);
+}
+
+.product-card1 img {
+    width: 80%;
+    margin-top: -14px;
+    border-radius: 10px;
+}
+
+.product-card1 h2 {
+    color: white;
+    font-size: 18px;
+    margin-top: 3px;  
+}
+
+.specs1 {
+    font-size: 14px;
+    margin-top: 10px;
+    color: white;
+}
+.warranty1 {
+    font-size: 14px;
+    color: white;
+    margin-top: 0px;
+}
+
+.price1 {
+    font-size: 22px;
+    color: red;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.product-card1 button {
+    background: #FF4F64;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.product-card1 button:hover {
+    background: #ff354d;
+}
+.product-card2 {
+    background: linear-gradient(#202020, black);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+.product-card2:hover {
+    box-shadow: 0 3px 8px rgb(56, 55, 55);
+}
+
+
+.product-card2 img {
+    width: 80%;
+    margin-top: -45px;
+    border-radius: 10px;
+}
+
+.product-card2 h2 {
+    color: white;
+    font-size: 18px;
+    margin-top: -35px;  
+}
+
+.specs2 {
+    font-size: 14px;
+    margin-top: 10px;
+    color: white;
+}
+.warranty2 {
+    font-size: 14px;
+    color: white;
+    margin-top: 0px;
+}
+
+.price2 {
+    font-size: 22px;
+    color: red;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.product-card2 button {
+    background: #FF4F64;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.product-card2 button:hover {
     background: #ff354d;
 }
 .side-banner {
     width: 280px;
     height: 900px;
-    margin-top: -990px;
+    margin-top: -850px;
     margin-left: -380px;
 }
+
 .side-banner h4 {
     color: white;
     font-size: 17px;
 }
+
 .side-banner img {
     width: 300px;
-    height: 950px;
-    margin-left: -10px;   
+    height: 800px;
+    margin-left: -10px;
 }
+
 .last-section {
     background-image: url(prebuiltimages/lastimg.jpg);
     background-size: cover;
@@ -434,6 +546,7 @@ hr {
     width: 100%;
     margin-top: 100px;
 }
+
 .last-card {
     position: absolute;
     width: 700px;
@@ -441,22 +554,26 @@ hr {
     margin-top: 100px;
     margin-left: 200px;
 }
+
 .last-card h3 {
     font-size: 53px;
     width: 700px;
     color: #FF4F64;
 }
+
 .last-card p {
     font-size: 20px;
     color: white;
     margin-top: 30px;
 }
+
 .last-section img {
     width: 700px;
     height: 500px;
     margin-top: 150px;
     margin-left: 1050px;
 }
+
 .features {
     display: flex;
     justify-content: space-around;
@@ -492,8 +609,9 @@ hr {
     font-size: 0.9rem;
     color: white;
 }
+
 footer {
-    background: linear-gradient(#FF4F64,rgb(0, 0, 0));
+    background: linear-gradient(#FF4F64, rgb(0, 0, 0));
     color: black;
     padding: 40px;
 }
@@ -512,18 +630,21 @@ footer {
     width: 300px;
     height: 150px;
 }
+
 .footer-section-brand img {
     margin-left: -170px;
     margin-top: -90px;
     width: 490px;
     height: 300px;
 }
+
 .footer-section-brand p {
     font-size: 16px;
     margin-top: -70px;
     margin-left: -80px;
     width: 300px;
 }
+
 .footer-section {
     flex: 1;
     min-width: 250px;
@@ -553,9 +674,11 @@ footer {
 .footer-section ul li a:hover {
     color: white;
 }
+
 .social-icons {
     margin-top: 20px;
 }
+
 .social-icons a {
     color: white;
     margin-right: 10px;
@@ -565,4 +688,3 @@ footer {
 .social-icons a:hover {
     color: black;
 }
-
