@@ -3,6 +3,7 @@
     padding: 0;
     text-decoration: none;
 }
+
 body {
     display: flex;
     flex-direction: column;
@@ -119,6 +120,7 @@ body {
     justify-content: center;
     border-radius: 50%;
 }
+
 .fav-icon {
     position: relative;
     font-size: 25px;
@@ -127,6 +129,7 @@ body {
     cursor: pointer;
     color: white;
 }
+
 .fav-icon span {
     position: absolute;
     top: -5px;
@@ -141,6 +144,7 @@ body {
     justify-content: center;
     border-radius: 50%;
 }
+
 .container {
     width: 100%;
     height: 100%;
@@ -152,7 +156,7 @@ body {
     display: flex;
     width: 504%;
     height: 100%;
-    animation: slide 30s infinite ;
+    animation: slide 30s infinite;
 }
 
 .wrapper img {
@@ -206,6 +210,7 @@ body {
 .title span {
     color: #FF4F64;
 }
+
 .monitor-card {
     position: relative;
     margin-left: 150px;
@@ -217,8 +222,8 @@ body {
     flex-direction: column;
     display: flex;
     overflow: hidden;
-
 }
+
 .monitor-card img {
     width: 350px;
     height: auto;
@@ -229,9 +234,11 @@ body {
     position: relative;
     transition: transform 0.3s ease-in-out;
 }
+
 .monitor-card:hover img {
-    transform: scale(1.2); 
+    transform: scale(1.2);
 }
+
 .monitor-card h3 {
     position: relative;
     color: white;
@@ -242,6 +249,7 @@ body {
     padding: 5px;
     border-radius: 5px;
 }
+
 .motherboard-card {
     position: relative;
     margin-top: -270px;
@@ -255,6 +263,7 @@ body {
     display: flex;
     overflow: hidden;
 }
+
 .motherboard-card img {
     width: 350px;
     height: 270px;
@@ -265,9 +274,11 @@ body {
     position: relative;
     transition: transform 0.3s ease-in-out;
 }
+
 .motherboard-card:hover img {
-    transform: scale(1.2); 
+    transform: scale(1.2);
 }
+
 .motherboard-card h3 {
     position: relative;
     color: white;
@@ -278,6 +289,7 @@ body {
     padding: 5px;
     border-radius: 5px;
 }
+
 .keyboard-card {
     position: relative;
     margin-top: -268px;
@@ -291,6 +303,7 @@ body {
     display: flex;
     overflow: hidden;
 }
+
 .keyboard-card img {
     width: 350px;
     height: 279px;
@@ -301,9 +314,11 @@ body {
     position: relative;
     transition: transform 0.3s ease-in-out;
 }
+
 .keyboard-card:hover img {
-    transform: scale(1.2); 
+    transform: scale(1.2);
 }
+
 .keyboard-card h3 {
     color: white;
     font-size: 20px;
@@ -313,6 +328,7 @@ body {
     padding: 5px;
     border-radius: 5px;
 }
+
 .mouse-card {
     position: relative;
     margin-left: 1400px;
@@ -326,6 +342,7 @@ body {
     display: flex;
     overflow: hidden;
 }
+
 .mouse-card img {
     width: 350px;
     height: 279px;
@@ -336,9 +353,11 @@ body {
     position: relative;
     transition: transform 0.3s ease-in-out;
 }
+
 .mouse-card:hover img {
-    transform: scale(1.2); 
+    transform: scale(1.2);
 }
+
 .mouse-card h3 {
     color: white;
     font-size: 20px;
@@ -348,6 +367,7 @@ body {
     padding: 5px;
     border-radius: 5px;
 }
+
 .graphic-card {
     position: relative;
     margin-left: 150px;
@@ -361,6 +381,7 @@ body {
     display: flex;
     overflow: hidden;
 }
+
 .graphic-card img {
     width: 350px;
     height: 279;
@@ -371,9 +392,11 @@ body {
     position: relative;
     transition: transform 0.3s ease-in-out;
 }
+
 .graphic-card:hover img {
-    transform: scale(1.2); 
+    transform: scale(1.2);
 }
+
 .graphic-card h3 {
     color: white;
     font-size: 20px;
@@ -383,6 +406,7 @@ body {
     padding: 5px;
     border-radius: 5px;
 }
+
 .cooler-card {
     position: relative;
     margin-left: 570px;
@@ -396,6 +420,7 @@ body {
     display: flex;
     overflow: hidden;
 }
+
 .cooler-card img {
     width: 350px;
     height: 270px;
@@ -406,9 +431,11 @@ body {
     position: relative;
     transition: transform 0.3s ease-in-out;
 }
+
 .cooler-card:hover img {
-    transform: scale(1.2); 
+    transform: scale(1.2);
 }
+
 .cooler-card h3 {
     color: white;
     font-size: 20px;
@@ -418,6 +445,7 @@ body {
     padding: 5px;
     border-radius: 5px;
 }
+
 .headphone-card {
     position: relative;
     margin-left: 980px;
@@ -431,6 +459,7 @@ body {
     display: flex;
     overflow: hidden;
 }
+
 .headphone-card img {
     width: 350px;
     height: 270px;
@@ -441,9 +470,11 @@ body {
     position: relative;
     transition: transform 0.3s ease-in-out;
 }
+
 .headphone-card:hover img {
-    transform: scale(1.2); 
+    transform: scale(1.2);
 }
+
 .headphone-card h3 {
     color: white;
     font-size: 20px;
@@ -453,6 +484,7 @@ body {
     padding: 5px;
     border-radius: 5px;
 }
+
 .cabinet-card {
     position: relative;
     margin-left: 1400px;
@@ -466,6 +498,7 @@ body {
     display: flex;
     overflow: hidden;
 }
+
 .cabinet-card img {
     width: 350px;
     height: 270px;
@@ -476,9 +509,11 @@ body {
     position: relative;
     transition: transform 0.3s ease-in-out;
 }
+
 .cabinet-card:hover img {
-    transform: scale(1.2); 
+    transform: scale(1.2);
 }
+
 .cabinet-card h3 {
     color: white;
     font-size: 20px;
@@ -488,6 +523,7 @@ body {
     padding: 5px;
     border-radius: 5px;
 }
+
 .powersupply-card {
     position: relative;
     margin-left: 150px;
@@ -501,6 +537,7 @@ body {
     display: flex;
     overflow: hidden;
 }
+
 .powersupply-card img {
     width: 350px;
     height: 270px;
@@ -511,9 +548,11 @@ body {
     position: relative;
     transition: transform 0.3s ease-in-out;
 }
+
 .powersupply-card:hover img {
-    transform: scale(1.2); 
+    transform: scale(1.2);
 }
+
 .powersupply-card h3 {
     color: white;
     font-size: 20px;
@@ -523,6 +562,7 @@ body {
     padding: 5px;
     border-radius: 5px;
 }
+
 .processor-card {
     position: relative;
     margin-left: 570px;
@@ -536,6 +576,7 @@ body {
     display: flex;
     overflow: hidden;
 }
+
 .processor-card img {
     width: 350px;
     height: 270px;
@@ -547,9 +588,11 @@ body {
     position: relative;
     transition: transform 0.3s ease-in-out;
 }
+
 .processor-card:hover img {
-    transform: scale(1.2); 
+    transform: scale(1.2);
 }
+
 .processor-card h3 {
     color: white;
     font-size: 20px;
@@ -559,6 +602,7 @@ body {
     padding: 5px;
     border-radius: 5px;
 }
+
 .ram-card {
     position: relative;
     margin-left: 980px;
@@ -572,6 +616,7 @@ body {
     display: flex;
     overflow: hidden;
 }
+
 .ram-card img {
     width: 350px;
     height: 290px;
@@ -582,9 +627,11 @@ body {
     position: relative;
     transition: transform 0.3s ease-in-out;
 }
+
 .ram-card:hover img {
-    transform: scale(1.2); 
+    transform: scale(1.2);
 }
+
 .ram-card h3 {
     color: white;
     font-size: 20px;
@@ -594,6 +641,7 @@ body {
     padding: 5px;
     border-radius: 5px;
 }
+
 .ssd-card {
     position: relative;
     margin-left: 1400px;
@@ -607,6 +655,7 @@ body {
     display: flex;
     overflow: hidden;
 }
+
 .ssd-card img {
     width: 350px;
     height: 290px;
@@ -617,9 +666,11 @@ body {
     position: relative;
     transition: transform 0.3s ease-in-out;
 }
+
 .ssd-card:hover img {
-    transform: scale(1.2); 
+    transform: scale(1.2);
 }
+
 .ssd-card h3 {
     color: white;
     font-size: 20px;
@@ -629,14 +680,16 @@ body {
     padding: 5px;
     border-radius: 5px;
 }
+
 .new-section {
     background-image: url(indeximages/transformed.jpeg);
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     padding-top: 100px;
     height: 200px;
 }
+
 .container1 {
     position: relative;
     width: 400px;
@@ -647,12 +700,14 @@ body {
     padding-bottom: 30px;
     background-color: rgba(220, 220, 220, 0.442);
 }
+
 .container1 img {
     width: 100px;
     margin-top: -10px;
     margin-left: 140px;
- 
+
 }
+
 .container1 h3 {
     color: black;
     font-size: 25px;
@@ -671,12 +726,13 @@ body {
     padding-bottom: 30px;
     background-color: rgba(220, 220, 220, 0.442);
 }
+
 .container2 img {
     width: 100px;
     margin-top: -7px;
     margin-left: 140px;
-
 }
+
 .container2 h3 {
     color: black;
     width: 350px;
@@ -696,11 +752,13 @@ body {
     padding-top: 30px;
     background-color: rgba(220, 220, 220, 0.442);
 }
+
 .container3 img {
     width: 100px;
     margin-top: -1px;
     margin-left: 130px;
 }
+
 .container3 h3 {
     color: black;
     width: 350px;
@@ -720,11 +778,13 @@ body {
     padding-top: 30px;
     background-color: rgba(220, 220, 220, 0.442);
 }
+
 .container4 img {
     width: 100px;
     margin-top: -1px;
     margin-left: 140px;
 }
+
 .container4 h3 {
     color: black;
     width: 290px;
@@ -739,6 +799,7 @@ body {
     margin: 0px;
     padding: 100px;
 }
+
 .title1 {
     color: white;
     font-size: 60px;
@@ -751,12 +812,14 @@ body {
 .title1 span {
     color: #FF4F64;
 }
+
 .subtitle1 {
     color: white;
     font-size: 20px;
     margin-top: 5px;
     text-align: center;
 }
+
 .pc-options {
     display: flex;
     justify-content: center;
@@ -775,6 +838,7 @@ body {
     height: 500px;
     display: inline-block;
 }
+
 .pc-build1 h3 {
     color: white;
     font-size: 30px;
@@ -790,28 +854,32 @@ body {
     height: 410px;
     margin-top: 10px;
 }
+
 .overlay-image1 {
     position: absolute;
-    top: 270px; 
+    top: 270px;
     left: 130px;
     width: auto;
     height: auto;
     max-height: 130px;
-    max-width: 130px; 
+    max-width: 130px;
     opacity: 2;
 }
+
 .stock1 {
     color: green;
     font-size: 20px;
     font-weight: bold;
     margin-top: 15px;
 }
+
 .price1 {
     font-size: 1.2em;
     margin-top: 15px;
     padding-bottom: 30px;
     color: white;
 }
+
 .price1 span {
     color: #d00;
     font-weight: bold;
@@ -831,6 +899,7 @@ button1 {
 button1:hover {
     background: darkred;
 }
+
 .pc-build2 {
     background: linear-gradient(#202020, black);
     position: relative;
@@ -842,36 +911,42 @@ button1:hover {
     height: 403px;
     display: inline-block;
 }
-.pc-build2 h3{
+
+.pc-build2 h3 {
     color: white;
     margin-top: 44px;
     font-size: 30px;
 }
+
 .pc-build2:hover {
     box-shadow: 0 3px 8px rgb(56, 55, 55);
 }
+
 .pc-build2 img {
     width: 690px;
     height: 600px;
     margin: -100px;
     margin-top: -100px;
 }
+
 .overlay-image2 {
     position: absolute;
-    top: 380px; 
+    top: 380px;
     left: 220px;
     width: auto;
     height: auto;
     max-height: 130px;
-    max-width: 130px; 
+    max-width: 130px;
     opacity: 2;
 }
+
 .stock2 {
     color: green;
     font-size: 20px;
     font-weight: bold;
     margin-top: 15px;
 }
+
 .price2 {
     font-size: 1.2em;
     color: white;
@@ -899,6 +974,7 @@ button2 {
 button2:hover {
     background: darkred;
 }
+
 .sec {
     background-image: url(indeximages/back1.jpeg);
     background-size: cover;
@@ -977,6 +1053,7 @@ button2:hover {
     padding: 0;
     padding-bottom: 100px;
 }
+
 .title3 {
     color: white;
     font-size: 60px;
@@ -989,6 +1066,7 @@ button2:hover {
 .title3 span {
     color: #FF4F64;
 }
+
 .rog {
     background-color: black;
     margin-top: 100px;
@@ -996,12 +1074,14 @@ button2:hover {
     width: 250px;
     height: 150px;
 }
+
 .rog img {
     width: 220px;
     height: 220px;
     margin-top: -40px;
     margin-left: 10px;
 }
+
 .aorus {
     background-color: black;
     margin-top: -150px;
@@ -1009,12 +1089,14 @@ button2:hover {
     width: 160px;
     height: 150px;
 }
+
 .aorus img {
     width: 140px;
     height: 140px;
     margin-top: 10px;
     margin-left: 10px;
 }
+
 .logitech {
     background-color: black;
     margin-top: -150px;
@@ -1022,12 +1104,14 @@ button2:hover {
     width: 150px;
     height: 150px;
 }
+
 .logitech img {
     width: 140px;
     height: 140px;
     margin-top: 6px;
     margin-left: 5px;
 }
+
 .amd {
     background-color: black;
     margin-top: -150px;
@@ -1035,12 +1119,14 @@ button2:hover {
     width: 300px;
     height: 150px;
 }
+
 .amd img {
     width: 300px;
     height: 130px;
     margin-left: -10px;
     margin-top: 10px;
 }
+
 .corsair {
     background-color: black;
     margin-top: -150px;
@@ -1048,12 +1134,14 @@ button2:hover {
     width: 180px;
     height: 150px;
 }
+
 .corsair img {
     width: 240px;
     height: 240px;
     margin-left: -30px;
     margin-top: -50px;
 }
+
 .razer {
     background-color: black;
     margin-top: 100px;
@@ -1061,12 +1149,14 @@ button2:hover {
     width: 200px;
     height: 200px;
 }
+
 .razer img {
     width: 300px;
     height: 200px;
     margin-left: -50px;
     margin-top: 0px;
 }
+
 .intel {
     background-color: black;
     margin-top: -200px;
@@ -1074,12 +1164,14 @@ button2:hover {
     width: 280px;
     height: 200px;
 }
+
 .intel img {
     width: 250px;
     height: 150px;
     margin-left: 10px;
     margin-top: 20px;
 }
+
 .msi {
     background-color: black;
     margin-top: -200px;
@@ -1087,12 +1179,14 @@ button2:hover {
     width: 200px;
     height: 200px;
 }
+
 .msi img {
     width: 400px;
     height: 200px;
     margin-left: -100px;
     margin-top: 0px;
 }
+
 .coolermaster {
     background-color: black;
     margin-top: -200px;
@@ -1100,6 +1194,7 @@ button2:hover {
     width: 250px;
     height: 200px;
 }
+
 .coolermaster img {
     width: 350px;
     height: 300px;
@@ -1108,7 +1203,7 @@ button2:hover {
 }
 
 footer {
-    background: linear-gradient(#FF4F64,rgb(0, 0, 0));
+    background: linear-gradient(#FF4F64, rgb(0, 0, 0));
     color: black;
     padding: 40px;
 }
@@ -1127,18 +1222,21 @@ footer {
     width: 300px;
     height: 150px;
 }
+
 .footer-section-brand img {
     margin-left: -170px;
     margin-top: -90px;
     width: 490px;
     height: 300px;
 }
+
 .footer-section-brand p {
     font-size: 16px;
     margin-top: -70px;
     margin-left: -80px;
     width: 300px;
 }
+
 .footer-section {
     flex: 1;
     min-width: 250px;
@@ -1168,9 +1266,11 @@ footer {
 .footer-section ul li a:hover {
     color: white;
 }
+
 .social-icons {
     margin-top: 20px;
 }
+
 .social-icons a {
     color: white;
     margin-right: 10px;
@@ -1180,4 +1280,3 @@ footer {
 .social-icons a:hover {
     color: black;
 }
-

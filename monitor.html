@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ByteBase | Monitor</title>
+    <link rel="stylesheet" href="monitor.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navdiv">
+                <div class="logo"><a href="index.html">
+                        <img src="monitorimages/byte.png" alt="clickable button">
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="prebuilt.html">Pre-Built Pc</a>
+                            <a href="custombuilt.html">Custom Pc</a>
+                            <a href="whatsnew.html">Whats New</a>
+                            <a href="services.html">Services</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <form>
+                    <div class="search">
+                        <span class="search-icon material-symbols-outlined">search</span>
+                        <input class="search-input" type="search" placeholder="Search">
+                    </div>
+                </form>
+            </div>
+
+            <div class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span id="cart-count">0</span>
+            </div>
+
+            <div class="fav-icon">
+                <i class="fas fa-heart"></i>
+                <span id="fav-count">0</span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="main-img">
+            <img src="monitorimages/monitorhtmlimg.jpg">
+        </section>
+
+        <section class="sidebar-container">
+            <div class="sidebar">
+                <h3>Filters</h3>
+                <br>
+                <div class="filter">
+                    <div class="filter">
+                    <h4>Stock</h4>
+                    <input type="checkbox"> In stock <br>
+                    <input type="checkbox"> Out of stock<br>
+                    <input type="checkbox"> Pre-order 
+                    </div>
+                    <h4>Brands</h4>
+                    <input type="checkbox"> Aoc <br>
+                    <input type="checkbox"> Asus <br>
+                    <input type="checkbox"> Dell <br>
+                    <input type="checkbox"> Gigabyte <br>
+                    <input type="checkbox"> Lg <br>
+                    <input type="checkbox"> Msi <br>
+                    <input type="checkbox"> Samsung <br>
+                    <input type="checkbox"> Zebronic <br>
+                </div>
+                <div class="filter">
+                    <h4>Price range</h4>
+                    <input type="checkbox"> Budget <br>
+                    <input type="checkbox"> Mid range <br>
+                    <input type="checkbox"> High end <br>
+                    <input type="checkbox"> Premium
+                </div>
+                <div class="filter">
+                    <h4>Customer Review</h4>
+                    <input type="checkbox"> 4★ & Up <br>
+                    <input type="checkbox"> 3★ & Up
+                </div>
+
+                <div class="filter">
+                    <h4>Resolution</h4>
+                    <input type="checkbox"> 1080p <br>
+                    <input type="checkbox"> 1440p <br>
+                    <input type="checkbox"> 4k
+                </div>
+                <div class="filter">
+                    <h4>screen size</h4>
+                    <input type="checkbox"> 21' - 24' <br>
+                    <input type="checkbox"> 25' - 27' <br>
+                    <input type="checkbox"> 28' - 32' <br>
+                    <input type="checkbox"> 32'+
+                </div>
+                <div class="filter">
+                    <h4>Refresh rate</h4>
+                    <input type="checkbox"> 75hz <br>
+                    <input type="checkbox"> 120hz <br>
+                    <input type="checkbox"> 144hz <br>
+                    <input type="checkbox"> 165hz <br>
+                    <input type="checkbox"> 240hz <br>
+                    <input type="checkbox"> 360hz
+                </div>
+                <div class="filter">
+                    <h4>Display Port</h4>
+                    <input type="checkbox"> OLED <br>
+                    <input type="checkbox"> LCD <br>
+                    <input type="checkbox"> LED <br>
+                    <input type="checkbox"> VA
+                </div>
+                <div class="filter">
+                    <h4>Adaptive Sync</h4>
+                    <input type="checkbox"> Free-Sync <br>
+                    <input type="checkbox"> Free-Sync Premium<br>
+                    <input type="checkbox"> G-syn <br>
+                    <input type="checkbox"> G-syn Premium
+                </div>
+                <div class="filter">
+                    <h4>Response Time</h4>
+                    <input type="checkbox"> Below 1ms <br>
+                    <input type="checkbox"> 1ms - 2ms <br>
+                    <input type="checkbox"> 2ms - 3ms <br>
+                    <input type="checkbox"> above 4ms
+                </div>
+                <div class="filter">
+                    <h4>Connectivity</h4>
+                    <input type="checkbox"> Displayport <br>
+                    <input type="checkbox"> Bluetooth <br>
+                    <input type="checkbox"> USB Type-C <br>
+                    <input type="checkbox"> HDMI
+                </div>
+            </div>
+        </section>
+
+        <section class="breadcrumb">
+            <div class="bread">
+                <a href="main.html">Home</a> /
+                <a href="monitor.html">Monitor</a>
+            </div>
+            <div class="results-count">Showing 1–4 of 16 results</div>
+            <div class="sort-dropdown">
+                <select>
+                    <option>Sort by price: low to high</option>
+                    <option>Sort by price: high to low</option>
+                    <option>Sort by rating</option>
+                    <option>Sort by popularity</option>
+                    <option>Sort by newest</option>
+                </select>
+            </div>
+        </section>
+        <hr>
+
+        <section class="product-grid">
+            <div class="product-card1">
+                <a href="MSI G2422C 23.6 Inch FHD Curved Gaming Monito.html">
+                    <img src="monitorimages/MSI G2422C 23.6 Inch FHD Curved Gaming Monitor.png" alt="Monitor"></a>
+                <h2>MSI G2422C 23.6 Inch FHD Curved Gaming Monitor</h2>
+                <p class="specs1">1ms, Adaptive Sync - DP 1.2a</p>
+                <p class="price1">₹8,999</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card1">
+                <a href="AOC 24G4E  Fast IPS Gaming Monitor.html">
+                    <img src="monitorimages/AOC 24G4E  Fast IPS Gaming Monitor.png" alt="Monitor"></a>
+                <h2>AOC 24G4E Fast IPS Gaming Monitor</h2>
+                <p class="specs1">Color Gaumat: sRGB 126%</p>
+                <p class="price1">₹7,490</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card1">
+                <a href="LG 24MS550-B 24 inch IPS FHD.html">
+                    <img src="monitorimages/lg 24ms550 b.png" alt="Monitor"></a>
+                <h2>LG 24MS550-B 24 inch IPS FHD</h2>
+                <p class="specs1">Stabilizer DAS Crosshair HDMI Black</p>
+                <p class="price1">₹9,999</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card1">
+                <a href="ZEBRONICS EA224 24(60.4cm) Slim Gaming Monitor, 165Hz, FHD.html">
+                    <img src="monitorimages/ZEBRONICS EA224 24(60.4cm) Slim Gaming Monitor, 165Hz, FHD.png" alt="Monitor"></a>
+                <h2>ZEBRONICS EA224 24(60.4cm) Slim Monitor</h2>
+                <p class="specs1">Headphone Jack, 165Hz Refresh Rate</p>
+                <p class="price1">₹8,599.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <a href="ASUS TUF Gaming 27” 1440P HDR Monitor.html">
+                <img src="monitorimages/ASUS TUF Gaming 27” 1440P HDR Monitor – QHD.png"></a>
+                <h2>ASUS TUF Gaming 27” HDR Monitor</h2>
+                <p class="specs">Fast IPS, 130% sRGB</p>
+                <p class="price">₹29,999</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <a href="MSI MAG 274QRF QD E2 27 Inch 2K WQHD Gaming Monitor.html">
+                <img src="monitorimages/MSI MAG 274QRF QD E2 27 Inch 2K WQHD Gaming Monitor.png"></a>
+                <h2>MSI MAG 274QRF QD E2 27 Inch 2K Gaming Monitor</h2>
+                <p class="specs">98% DCI-P3 Colour Gamut</p>
+                <p class="price">₹29,799</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <a href="Samsung 27-inch(68.47cm) QHD Monitor, IPS.html">
+                <img src="monitorimages/Samsung 27-inch(68.47cm) QHD Monitor, IPS, Bezel Less Design.png"></a>
+                <h2>Samsung 27-inch(68.47cm) QHD Monitor,Bezel less design</h2>
+                <p class="specs">FSC-Certified, Energy Saving</p>
+                <p class="price">₹28,999</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card2">
+                <a href="Samsung 32-inch(80.1cm) 4K UHD, Flat Monitor.html">
+                <img src="monitorimages/Samsung 32-inch(80.1cm) 4K UHD, Flat Monitor.png"></a>
+                <h2>Samsung 32-inch(80.1cm) 4K UHD, Flat Monitor</h2>
+                <p class="specs2">Slim Bezels, AMD FreeSync</p>
+                <p class="price2">₹27,000</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <a href="Asus ROG Strix XG32VC 31.5 inch WQHD Curved Gaming Monitor.html">
+                <img src="monitorimages/Asus ROG Strix XG32VC 31.5 inch WQHD Curved Gaming Monitor.png"></a>
+                <h2>Asus ROG Strix XG32VC 31.5 inch WQHD Curved Gaming Monitor</h2>
+                <p class="specs">Extreme Low Motion Blur Sync</p>
+                <p class="price">₹47,965</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <a href="ROG Strix XG27WCS Gaming Monitor 27-inch  Curved.html">
+                <img src="monitorimages/ROG Strix XG27WCS Gaming Monitor – 27-inch  Curved,180Hz.png" alt=""></a>
+                <h2>ROG Strix XG27WCS Gaming Monitor 27-inch Curved,180Hz</h2>
+                <p class="specs">FreeSync, DisplayWidget Center</p>
+                <p class="price">₹48,899</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <a href="Samsung Odyssey G6 LS32BG650EWXXL 32 Inch Gaming Monitor 240hz.html">
+                <img src="monitorimages/Samsung Odyssey G6 LS32BG650EWXXL 32 Inch Gaming Monitor 240hz.png"></a>
+                <h2>Samsung Odyssey G6 LS32BG650EWXXL 32 Inch Gaming Monitor 240hz</h2>
+                <p class="specs">Amd Free-Sync Premium and cloud gaming</p>
+                <p class="price">₹43,399</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card3">
+                <a href="LG 34 Curved Ultrawide WQHD LED Monitor (35WN75C).html">
+                <img src="monitorimages/LG 34 Curved Ultrawide WQHD LED Monitor (35WN75C).png"></a>
+                <h2>LG 34 Curved Ultrawide WQHD LED Monitor (35WN75C).png</h2>
+                <p class="specs3">Max cruv and Audio 7W Speakers</p>
+                <p class="price3">₹43,999</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <a href="MSI MAG 271QPX QD-OLED, 27 OLED Gaming Monitor.html">
+                <img src="monitorimages/MSI MAG 271QPX QD-OLED, 27 OLED Gaming Monitor (QHD).png"></a>
+                <h2>MSI MAG 271QPX QD-OLED, 27 OLED Gaming Monitor</h2>
+                <p class="specs">0.03ms Response time</p>
+                <p class="price">₹67,999</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <a href="Dell Ultrasharp 32 4K Usb-C Hub Monitor - U3223Qe, LCD,html"></a>
+                <img src="monitorimages/Dell Ultrasharp 32 4K Usb-C Hub Monitor - U3223Qe, LCD.png">
+                <h2>Dell Ultrasharp 32 4K Usb-C Hub Monitor - U3223Qe, LCD</h2>
+                <p class="specs">4K UHD 2160p</p>
+                <p class="price">₹68,559</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card2">
+                <a href="Samsung 32-inch(80.1cm) 4K UHD, Flat Monitor.html">
+                <img src="monitorimages/Samsung 32-inch(80.1cm) 4K UHD, Flat Monitor.png"></a>
+                <h2>Samsung 32-inch(80.1cm) 4K UHD, Flat Monitor</h2>
+                <p class="specs2">Slim Bezels, AMD FreeSync</p>
+                <p class="price2">₹27,000</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <a href="GIGABYTE M32UC, 31.5 Inch  LCD Gaming Monitor.html"></a>
+                <img src="monitorimages/GIGABYTE M32UC, 31.5 Inch  LCD Gaming Monitor.png">
+                <h2>GIGABYTE M32UC, 31.5 Inch  LCD Gaming Monitor</h2>
+                <p class="specs">Freesync Premium Pro, KVM Feature</p>
+                <p class="price">₹62,599</p>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section-brand">
+                <img src="monitorimages/newbyte.png" alt="logo">
+                <p>We have a great amount of experience in building Gaming PCs, Editing PCs & Workstations for our
+                    clients. We build with love and understand what your PC means to you.</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>SHOP CATEGORIES</h3>
+                <ul>
+                    <li><a href="#">Custom PC</a></li>
+                    <li><a href="#">PC Components</a></li>
+                    <li><a href="#">PC Peripherals</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>INFORMATION</h3>
+                <ul>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Shipping Policy</a></li>
+                    <li><a href="#">Refund & Cancellation Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>CONTACT US</h3>
+                <p>Store Address:A.K. Complex, Beltola - Basistha Rd, near BSNL Office, Basisthpur, Guwahati, Assam
+                    781036</p>
+                <p>Phone: +91-XXXXXXXXXX</p>
+                <p>Timings: 11am-6pm (Mon-Sat), Sunday Holiday</p>
+                <p>Email: support@bytebase.com</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
