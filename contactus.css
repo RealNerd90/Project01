@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Cinzel", serif;
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    background-color: black;
+    position: relative;
+    height: 110px;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    display: flex;
+    width: 220px;
+    margin-top: 0px;
+    margin-left: 180px;
+}
+
+.navdiv li {
+    list-style: none;
+    position: absolute;
+    display: inline-block;
+    margin-left: 820px;
+    margin-top: -63px;
+}
+
+.navdiv li a {
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    display: inline-block;
+    position: relative;
+}
+
+.navdiv li a::after {
+    content: "";
+    position: absolute;
+    background-color: #FF4F64;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 10px;
+}
+
+.navdiv li a:hover {
+    color: #FF4F64;
+}
+
+.navdiv li a:hover:after {
+    width: 100%;
+}
+
+.search {
+    --padding: 14px;
+    margin-left: 40px;
+    position: relative;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: var(--padding);
+    border-radius: 28px;
+    background-color: rgb(42, 41, 41);
+    transition: box-shadow 0.25s;
+}
+
+.search-input {
+    font-size: 19px;
+    margin-left: 10px;
+    color: white;
+    outline: none;
+    background: transparent;
+    width: 300px;
+    border: none;
+}
+
+.search-input::placeholder {
+    color: rgb(255, 255, 255, 0 7);
+}
+
+.search-icon {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.cart-icon {
+    position: relative;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 850px;
+    cursor: pointer;
+    color: white;
+}
+
+.cart-icon span {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background: red;
+    color: white;
+    font-size: 12px;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.fav-icon {
+    position: relative;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 40px;
+    cursor: pointer;
+    color: white;
+}
+
+.fav-icon span {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background: red;
+    color: white;
+    font-size: 12px;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.contact-section {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-bottom: 100px;
+}
+
+.background-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 40px;
+}
+
+.overlay {
+    position: absolute;
+    top: 10%;
+    left: 400px;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.overlay h2 {
+    font-size: 65px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.overlay p {
+    font-size: 18px;
+    margin-left: 240px;
+    line-height: 1.5;
+    text-align: start;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.contact-form {
+    flex: 1;
+    padding-right: 100px;
+}
+
+.form-group {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    flex: 1;
+    font-family: "Cinzel", serif;
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #FF4F64;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    background-color: black;
+    caret-color: white;
+}
+
+.contact-form ::placeholder {
+    color: white;
+}
+
+.form-group textarea {
+    height: 220px;
+}
+
+.phone-input {
+    display: flex;
+    align-items: center;
+    border: 2px solid #FF4F64;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: black;
+    width: 100%;
+    max-width: 578px;
+}
+
+.fixed-prefix {
+    color: white;
+    padding: 10px;
+    background: black;
+    font-size: 16px;
+}
+
+.phone-input input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    background: black;
+    color: white;
+    font-size: 16px;
+    flex: 1;
+}
+
+.phone-input input:focus {
+    border: none;
+    outline: none;
+}
+
+.contact-form button {
+    background-color: #FF4F64;
+    font-family: "Cinzel", serif;
+    font-weight: 500;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: -1100px;
+}
+
+.contact-form button:hover {
+    background-color: white;
+    color: black;
+}
+
+.contact-info {
+    max-width: 300px;
+    text-align: left;
+}
+
+.contact-info h3 {
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.contact-info i {
+    margin-right: 10px;
+    color: #FF4F64;
+}
+
+footer {
+    background-color: #FF4F64;
+    color: black;
+    padding: 40px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin-left: 400px;
+}
+
+.footer-section-brand {
+    margin-left: -180px;
+    padding-left: 130px;
+    width: 300px;
+    height: 150px;
+}
+
+.footer-section-brand img {
+    margin-left: -170px;
+    margin-top: -90px;
+    width: 490px;
+    height: 300px;
+}
+
+.footer-section-brand p {
+    width: 300px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: -70px;
+    margin-left: -80px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 20px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.footer-section p {
+    font-weight: 600;
+}
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 8px 0;
+}
+
+.footer-section ul li a {
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    color: white;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: white;
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.social-icons a:hover {
+    color: black;
+}

@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ByteBase | RAM</title>
+    <link rel="stylesheet" href="product.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navdiv">
+                <div class="logo"><a href="index.html">
+                        <img src="ramimg/byte.png" alt="clickable button">
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="prebuilt.html">Pre-Built Pc</a>
+                            <a href="custombuilt.html">Custom Pc</a>
+                            <a href="whatsnew.html">Whats New</a>
+                            <a href="services.html">Services</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <form>
+                    <div class="search">
+                        <span class="search-icon material-symbols-outlined">search</span>
+                        <input class="search-input" type="search" placeholder="Search">
+                    </div>
+                </form>
+            </div>
+
+            <div class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span id="cart-count">0</span>
+            </div>
+
+            <div class="fav-icon">
+                <i class="fas fa-heart"></i>
+                <span id="fav-count">0</span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="main-img">
+            <img src="ramimg/rammainimg.jpg">
+        </section>
+
+        <section class="sidebar-container">
+            <div class="sidebar">
+                <h3>Filters</h3>
+                <br>
+                <div class="filter">
+                    <div class="filter">
+                    <h4>Stock</h4>
+                    <input type="checkbox"> In stock <br>
+                    <input type="checkbox"> Out of stock<br>
+                    <input type="checkbox"> Pre-order 
+                </div>
+                <div class="filter">   
+                    <h4>Brands</h4>
+                    <input type="checkbox"> Acer <br>
+                    <input type="checkbox"> Adata <br>
+                    <input type="checkbox"> G.skill <br>
+                    <input type="checkbox"> HyperX <br>
+                    <input type="checkbox"> Kingston <br>
+                    <input type="checkbox"> Patriot <br>
+                    <input type="checkbox"> TeamGroup <br>
+                    <input type="checkbox"> Thermaltake 
+                </div>    
+                <div class="filter">   
+                    <h4>Form Factor</h4>
+                    <input type="checkbox"> DIMM <br>
+                    <input type="checkbox"> RDIMM <br>
+                    <input type="checkbox"> SO-RDIMM  
+                </div>
+                <div class="filter">
+                    <h4>Features</h4>
+                    <input type="checkbox"> Autoclocking <br>
+                    <input type="checkbox"> ECC <br>
+                    <input type="checkbox"> Led light <br>
+                    <input type="checkbox"> Registered Memory 
+                </div>
+                <div class="filter">
+                    <h4>Customer Review</h4>
+                    <input type="checkbox"> 4★ & Up <br>
+                    <input type="checkbox"> 3★ & Up
+                </div>
+                <div class="filter">
+                    <h4>Memory Technology</h4>
+                    <input type="checkbox"> DDR4 <br>
+                    <input type="checkbox"> DDR5
+                </div>
+                <div class="filter">   
+                    <h4>Memory Speed</h4>
+                    <input type="checkbox"> 3200MHZ <br>
+                    <input type="checkbox"> 3600MHz <br>
+                    <input type="checkbox"> 4000MHz <br>
+                    <input type="checkbox"> 5000MHz <br>
+                    <input type="checkbox"> 6000MHz 
+                </div>
+                <div class="filter">   
+                    <h4>Memory Size</h4>
+                    <input type="checkbox"> 8gb <br>
+                    <input type="checkbox"> 16gb <br>
+                    <input type="checkbox"> 32gb <br>
+                    <input type="checkbox"> 64gb   
+                </div>
+                <div class="filter">
+                    <h4>Lighting</h4>
+                    <input type="checkbox"> No color <br> 
+                    <input type="checkbox"> RGB
+                </div>
+            </div>
+        </section>
+
+        <section class="breadcrumb">
+            <div class="bread">
+                <a href="main.html">Home</a> /
+                <a href="ram.html">RAM</a>
+            </div>
+            <div class="results-count">Showing 1–4 of 25 results</div>
+            <div class="sort-dropdown">
+                <select>
+                    <option>Sort by price: low to high</option>
+                    <option>Sort by price: high to low</option>
+                    <option>Sort by rating</option>
+                    <option>Sort by popularity</option>
+                    <option>Sort by newest</option>
+                </select>
+            </div>
+        </section>
+        <hr>
+
+        <section class="product-grid">
+            <div class="product-card">
+                <a href="#">
+                <img src="ramimg/Adata Xpg Spectrix D60g 8gb  Ddr4 Rgb 3600mhz.png"></a>
+                <h2>Adata Xpg Spectrix D60g DDR4 Memory</h2>
+                <p class="specs">8gb, 3600MHz</p>
+                <p class="price">₹2,085</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <a href="#">
+                <img src="ramimg/HyperX Predator RGB 8 GB DDR4 4000 MHz.png"></a>
+                <h2>HyperX Predator RGB DDR4 Memory</h2>
+                <p class="specs">8gb, 4000MHz</p>
+                <p class="price">₹7,865</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <a href="#">
+                <img src="ramimg/TEAMGROUP T-FORCE VULCAN 8GB DDR5 5200MHZ.png"></a>
+                <h2>TEAMGROUP T-FORCE VULCAN DDR5 Memory</h2>
+                <p class="specs">8gb, 5200MHz</p>
+                <p class="price">₹2,809</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <a href="#">
+                <img src="ramimg/Kingston Fury Beast 8GB 6000mhz DDR5.png"></a>
+                <h2>Kingston Fury Beast DDR5 Memory</h2>
+                <p class="specs">8gb, 6000MHz</p>
+                <p class="price">₹4,300</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <a href="#">
+                <img src="ramimg/Acer Predator Apollo 16gb 3600MHx.jpg"></a>
+                <h2>Acer Predator Apollo DDR4 Memory</h2>
+                <p class="specs">16gb, 3600MHz</p>
+                <p class="price">₹5,499</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <a href="#">
+                <img src="ramimg/G.SKILL Ripjaws V 16GB 4000MHz DDR4 RAM.png"></a>
+                <h2>G.SKILL Ripjaws V DDR4 Memory</h2>
+                <p class="specs">16gb, 4000MHz</p>
+                <p class="price">₹9,400</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <a href="#">
+                <img src="ramimg/TeamGroup T-Force Vulcan 16GB DDR5 5200MHz.png"></a>
+                <h2>TeamGroup T-Force Vulcan DDR5 Memory</h2>
+                <p class="specs">16gb, 5200MHz</p>
+                <p class="price">₹2,599</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <a href="#">
+                <img src="ramimg/ADATA XPG Lancer Neon RGB 16GB DDR5 6000MHz.png"></a>
+                <h2>ADATA XPG Lancer Neon RGB DDR5 Memory</h2>
+                <p class="specs">16gb, 6000MHz</p>
+                <p class="price">₹6,000</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <a href="#">
+                <img src="ramimg/Adata XPG 32GB 3600Mhz RGB SPECTRIX D35G DDR4 Memory.png"></a>
+                <h2>Adata XPG SPECTRIX D35G DDR4 Memory</h2>
+                <p class="specs">32gb, 3600MHz</p>
+                <p class="price">₹6,900</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <a href="#">
+                <img src="ramimg/G.SKILL Trident Z Royal Elite 32GB DDR4 4000Mhz.png"></a>
+                <h2>G.SKILL Trident Z Royal Elite DDR4 Memory</h2>
+                <p class="specs">32gb, 4000MHz</p>
+                <p class="price">₹15,999</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <a href="#">
+                <img src="ramimg/TeamGroup T-Force Delta RGB 32gb DDR5 5600MHz.png"></a>
+                <h2>TeamGroup T-Force Delta RGB DDR5 Memory</h2>
+                <p class="specs">32gb, 5600MHz</p>
+                <p class="price">₹9,351</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <a href="#">
+                <img src="ramimg/Acer Predator Vesta II RGB 32Gb 6000MHz DDR5.png"></a>
+                <h2>Acer Predator Vesta II RGB DDR5</h2>
+                <p class="specs">32gb, 6000MHz</p>
+                <p class="price">₹11,340</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <a href="#">
+                <img src="ramimg/Acer Predator Talos 16GB (8GBx2) RAM 3200 MHz DDR4.png"></a>
+                <h2>Acer Predator Talos (8x2) DDR4 Memory Kit</h2>
+                <p class="specs">16gb, 3200MHz</p>
+                <p class="price">₹4,200</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <a href="#">
+                <img src="ramimg/Adata XPG Spectrix D60G 16GB (8GBX2) DDR4 3600MHz.png"></a>
+                <h2>Adata XPG Spectrix D60G (8GBX2) DDR4 Memory Kit</h2>
+                <p class="specs">16gb, 3600MHz</p>
+                <p class="price">₹5,379</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <a href="#">
+                <img src="ramimg/Thermaltake Toughram RGB 16GB (8GBx2) DDR4 4000MHz RGB (1).png"></a>
+                <h2>Thermaltake Toughram RGB (8GBx2) Memory Kit</h2>
+                <p class="specs">16gb, 4000MHz</p>
+                <p class="price">₹13,799</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <a href="#">
+                <img src="ramimg/G.Skill Ripjaws V (8x2) 16GB DDR4 5000Mhz.png"></a>
+                <h2>G.Skill Ripjaws V (8x2) DDR4 Memory Kit</h2>
+                <p class="specs">16gb, 5000MHz</p>
+                <p class="price">₹13,399</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <a href="#">
+                <img src="ramimg/Acer Predator Vesta 32GB (16x2) 3200Mhz RGB DDR4.png"></a>
+                <h2>Acer Predator Vesta (16x2) DDR4 Memory Kit</h2>
+                <p class="specs">32gb, 3200MHz</p>
+                <p class="price">₹11,060</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <a href="#">
+                <img src="ramimg/G.Skill Trident Z Neo (16x2) 32GB DDR4 3600MHz RGB.png"></a>
+                <h2>G.Skill Trident Z Neo (16x2) DDR4 Memory Kit</h2>
+                <p class="specs">32gb, 3600MHz</p>
+                <p class="price">₹9,390</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <a href="#">
+                <img src="ramimg/G.SKILL 32GB(16x2) TRIDENT Z 4000Mhz RAM.png"></a>
+                <h2>G.Skill Trident Z (16x2) DDR4 Memory Kit</h2>
+                <p class="specs">32gb, 4000MHz</p>
+                <p class="price">₹16,609</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <a href="#">
+                <img src="ramimg/Teamgroup T-Force Delta RGB (16x2) 32GB DDR5 5200MHz.png"></a>
+                <h2>Teamgroup T-Force Delta (16x2) DDR5 Memory Kit</h2>
+                <p class="specs">32gb, 5200MHz</p>
+                <p class="price">₹16,022</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <a href="#">
+                <img src="ramimg/Adata XPG Gammix D35 64GB (32x2) DDR4 3200MHZ.png"></a>
+                <h2>Adata XPG Gammix D35 (32x2) DDR4 Memory Kit</h2>
+                <p class="specs">64gb, 3200MHz</p>
+                <p class="price">₹5,725</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <a href="#">
+                <img src="ramimg/Patriot Viper Steel 64GB (32x2) DDR4 3600MHz.png"></a>
+                <h2>Patriot Viper Steel (32x2) DDR4 Memory Kit</h2>
+                <p class="specs">64gb, 3600MHz</p>
+                <p class="price">₹9,999</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <a href="#">
+                <img src="ramimg/Patriot Memory Viper Elite II DDR4 RAM 64GB (2X32GB) 4000MHz.png"></a>
+                <h2>Patriot Viper Elite II (32x2) DDR4 Memory Kit</h2>
+                <p class="specs">64gb, 4000MHz</p>
+                <p class="price">₹10,999</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <a href="#">
+                <img src="ramimg/TeamGroup T-Force Delta RGB 64gb (32x2) DDR5 5600MHz.png"></a>
+                <h2>TeamGroup T-Force Delta (32x2) DDR5 Memory Kit</h2>
+                <p class="specs">64gb, 5600MHz</p>
+                <p class="price">₹19,535</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <a href="#">
+                <img src="ramimg/Acer Predator Vesta II RGB 64GB (32GBx2) 6000MHz DDR5.png"></a>
+                <h2>Acer Predator Vesta II (32x2) DDR5 Memory Kit</h2>
+                <p class="specs">64gb, 6000MHz</p>
+                <p class="price">₹21,999</p>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section-brand">
+                <img src="ramimg/newbyte.png" alt="logo">
+                <p>We have a great amount of experience in building Gaming PCs, Editing PCs & Workstations for our
+                    clients. We build with love and understand what your PC means to you.</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>SHOP CATEGORIES</h3>
+                <ul>
+                    <li><a href="#">Custom PC</a></li>
+                    <li><a href="#">PC Components</a></li>
+                    <li><a href="#">PC Peripherals</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>INFORMATION</h3>
+                <ul>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Shipping Policy</a></li>
+                    <li><a href="#">Refund & <br> Cancellation Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>CONTACT US</h3>
+                <p>Store Address:A.K. Complex, Beltola - Basistha Rd, near BSNL Office, Basisthpur, Guwahati, Assam
+                    781036</p>
+                <p>Phone: +91-XXXXXXXXXX</p>
+                <p>Timings: 11am-6pm (Mon-Sat), Sunday Holiday</p>
+                <p>Email: support@bytebase.com</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

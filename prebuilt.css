@@ -26,17 +26,17 @@ body {
 
 .logo img {
     display: flex;
-    width: 350px;
-    margin-top: 10px;
-    margin-left: 80px;
+    width: 220px;
+    margin-top: 0px;
+    margin-left: 180px;
 }
 
 .navdiv li {
     list-style: none;
     position: absolute;
     display: inline-block;
-    margin-left: 780px;
-    margin-top: -135px;
+    margin-left: 820px;
+    margin-top: -63px;
 }
 
 .navdiv li a {
@@ -67,7 +67,7 @@ body {
 
 .search {
     --padding: 14px;
-    margin-left: -40px;
+    margin-left: 40px;
     position: relative;
     width: max-content;
     display: flex;
@@ -315,7 +315,6 @@ body {
     text-decoration: none;
 }
 
-
 .results-count {
     font-size: 17px;
     color: white;
@@ -525,24 +524,6 @@ hr {
     background: #ff354d;
 }
 
-.side-banner {
-    width: 280px;
-    height: 900px;
-    margin-top: -850px;
-    margin-left: -380px;
-}
-
-.side-banner h4 {
-    color: white;
-    font-size: 17px;
-}
-
-.side-banner img {
-    width: 300px;
-    height: 800px;
-    margin-left: -10px;
-}
-
 .last-section {
     background-image: url(prebuiltimages/lastimg.jpg);
     background-size: cover;
@@ -617,7 +598,7 @@ hr {
 }
 
 footer {
-    background: linear-gradient(#FF4F64, rgb(0, 0, 0));
+    background-color: #FF4F64;
     color: black;
     padding: 40px;
 }
@@ -645,10 +626,11 @@ footer {
 }
 
 .footer-section-brand p {
+    width: 300px;
     font-size: 16px;
+    font-weight: 600;
     margin-top: -70px;
     margin-left: -80px;
-    width: 300px;
 }
 
 .footer-section {
@@ -663,6 +645,10 @@ footer {
     font-weight: bold;
 }
 
+.footer-section p {
+    font-weight: 600;
+}
+
 .footer-section ul {
     list-style: none;
     padding: 0;
@@ -673,6 +659,7 @@ footer {
 }
 
 .footer-section ul li a {
+    font-weight: 600;
     color: black;
     text-decoration: none;
 }

@@ -11,10 +11,6 @@ body {
     font-family: "Cinzel", serif;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 .navbar {
     display: flex;
     background-color: black;
@@ -30,17 +26,17 @@ html {
 
 .logo img {
     display: flex;
-    width: 350px;
-    margin-top: 10px;
-    margin-left: 80px;
+    width: 220px;
+    margin-top: 0px;
+    margin-left: 180px;
 }
 
 .navdiv li {
     list-style: none;
     position: absolute;
     display: inline-block;
-    margin-left: 780px;
-    margin-top: -135px;
+    margin-left: 820px;
+    margin-top: -63px;
 }
 
 .navdiv li a {
@@ -71,7 +67,7 @@ html {
 
 .search {
     --padding: 14px;
-    margin-left: -40px;
+    margin-left: 40px;
     position: relative;
     width: max-content;
     display: flex;
@@ -149,14 +145,74 @@ html {
     justify-content: center;
     border-radius: 50%;
 }
-
-.main-img {
-    margin: 0;
-    padding: 0;
-}
-.main-img img {
+.first-section {
     width: 100%;
-    height: 550px;
+    height: 850px;
+    padding-top: 30px;
+}
+.title {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.title span {
+    color: #FF4F64;
+}
+.subtitle {
+    color: white;
+    font-size: 20px;
+    margin-top: -40px;
+    text-align: center;
+}
+
+.intel-part {
+    width: 900px;
+    height: 450px;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-left: 50px;
+    transition: transform 0.3s ease-in-out;
+    flex-direction: column;
+    display: flex;
+    overflow: hidden;
+}
+.intel-part:hover img {
+    transform: scale(1.05);
+}
+.intel-part img {
+    width: 900px;
+    height: 450px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+.amd-part {
+    width: 900px;
+    height: 450px;
+    border-radius: 10px;
+    margin-top: -450px;
+    margin-left: 960px;
+    transition: transform 0.3s ease-in-out;
+    flex-direction: column;
+    display: flex;
+    overflow: hidden;
+}
+.amd-part:hover img {
+    transform: scale(1.05);
+}
+.amd-part img {
+    width: 900px;
+    height: 450px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    transition: transform 0.3s ease-in-out;
 }
 
 .sidebar-container {
@@ -253,6 +309,11 @@ html {
     font-weight: 500;
     font-size: 14px;
     color: black; 
+}
+
+.sort-dropdown select:hover,
+.sort-dropdown select:focus {
+    border-color: #FF4F64;
 }
 
 hr {
@@ -451,7 +512,7 @@ hr {
     background: #ff354d;
 }
 footer {
-    background: linear-gradient(#FF4F64,rgb(0, 0, 0));
+    background-color: #FF4F64;
     color: black;
     padding: 40px;
 }
@@ -478,6 +539,7 @@ footer {
 }
 .footer-section-brand p {
     font-size: 16px;
+    font-weight: 600;
     margin-top: -70px;
     margin-left: -80px;
     width: 300px;
@@ -490,10 +552,13 @@ footer {
 
 .footer-section h3 {
     font-size: 18px;
-    margin-bottom: 10px;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
+.footer-section p {
+    font-weight: 600;
+}
 .footer-section ul {
     list-style: none;
     padding: 0;
@@ -505,6 +570,7 @@ footer {
 
 .footer-section ul li a {
     color: black;
+    font-weight: 600;
     text-decoration: none;
 }
 
