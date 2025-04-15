@@ -36,11 +36,11 @@ Whether you're a gamer, a creator, or just a power user, ByteBase helps you brow
 
 >[Pre-build Section](/asset/Screenshot%203.png)
 
-## 🔹Custom Build Section
+### 🔹Custom Build Section
 
 >[Custom Build Section](/asset/Screenshot%204.png)
 
-## 🔹Associated Brands 
+### 🔹Associated Brands 
 
 >[Associated Brands](/asset/Screenshot%205.png)
 
