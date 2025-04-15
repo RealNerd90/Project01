@@ -34,7 +34,7 @@ Whether you're a gamer, a creator, or just a power user, ByteBase helps you brow
 
 ### 🔹Pre-Build Section
 
->[Pre-build Section](/asset/Screenshot%203.png)
+>[Pre-build Section](asset/Screenshot%203.png)
 
 ### 🔹Custom Build Section
 
