@@ -24,7 +24,25 @@ Whether you're a gamer, a creator, or just a power user, ByteBase helps you brow
 
 ## Screenshots
 
-> ![ByteBase Screenshot](C:\Users\ADMIN\Pictures\Screenshots\Screenshot1)
+### 🔹Main Section
+
+>[Main Section](/asset/Screenshot%201.png)
+
+### 🔹Browse Menu
+
+>[Browse Menu](/asset/Screenshot%202.png)
+
+### 🔹Pre-Build Section
+
+>[Pre-build Section](/asset/Screenshot%203.png)
+
+## 🔹Custom Build Section
+
+>[Custom Build Section](/asset/Screenshot%204.png)
+
+## 🔹Associated Brands 
+
+>[Associated Brands](/asset/Screenshot%205.png)
 
 ---
 
