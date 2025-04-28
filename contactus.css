@@ -212,7 +212,7 @@ body {
     font-family: "Cinzel", serif;
     width: 100%;
     padding: 12px;
-    border: 2px solid #FF4F64;
+    border: 2px solid white;
     border-radius: 5px;
     font-size: 16px;
     outline: none;
@@ -231,7 +231,7 @@ body {
 .phone-input {
     display: flex;
     align-items: center;
-    border: 2px solid #FF4F64;
+    border: 2px solid white;
     border-radius: 5px;
     padding: 5px;
     background-color: black;
@@ -286,7 +286,7 @@ body {
 
 .contact-info h3 {
     font-size: 25px;
-    margin-left: 20px;
+    margin-left: 0px;
 }
 
 .contact-info p {
