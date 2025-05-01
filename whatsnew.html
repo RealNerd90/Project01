@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ByteBase</title>
+  <link rel="stylesheet" href="whatsnew.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="navdiv">
+        <div class="logo"><a href="index.html">
+            <img src="whatsnewimg/byte.png" alt="clickable button">
+          </a>
+          <ul>
+            <li>
+              <a href="prebuilt.html">Pre-Built Pc</a>
+              <a href="custombuilt.html">Custom Pc</a>
+              <a href="whatsnew.html">Whats New</a>
+              <a href="services.html">Services</a>
+            </li>
+          </ul>
+        </div>
+
+        <form>
+          <div class="search">
+            <span class="search-icon material-symbols-outlined">search</span>
+            <input class="search-input" type="search" placeholder="Search">
+          </div>
+        </form>
+      </div>
+
+      <div class="cart-icon">
+        <i class="fas fa-shopping-cart"></i>
+        <span id="cart-count">0</span>
+      </div>
+
+      <div class="fav-icon">
+        <i class="fas fa-heart"></i>
+        <span id="fav-count">0</span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hidden-anchor" id="news1"></div>
+    <div class="hidden-anchor" id="news2"></div>
+    <div class="hidden-anchor" id="news3"></div>
+    <div class="hidden-anchor" id="news4"></div>
+    <div class="hidden-anchor" id="news5"></div>
+    <div class="hidden-anchor" id="news6"></div>
+
+    <div class="main-container">
+      <div class="featured">
+        <img src="whatsnewimg/defaultimg.jpg" class="default" />
+        <img src="whatsnewimg/newsimg1.jpg" class="img1" />
+        <img src="whatsnewimg/newsimg2.jpg" class="img2" />
+        <img src="whatsnewimg/newsimg3.jpg" class="img3" />
+        <img src="whatsnewimg/newsimg4.jpg" class="img4" />
+        <img src="whatsnewimg/newsimg5.png" class="img5" />
+        <img src="whatsnewimg/newsimg6.png" class="img6" />
+      </div>
+
+      <div class="news-list">
+        <a href="#news1" class="news-item">GIGABYTE Debuts GeForce RTX™ 5060 Ti & 5060</a>
+        <a href="#news2" class="news-item">GIGABYTE Continues Red Dot & iF Winning Streak</a>
+        <a href="#news3" class="news-item">Logitech’s latest G PRO 2 Lightspeed</a>
+        <a href="#news4" class="news-item">NVIDIA Sets Conference Call for First-Quarter Financial Results</a>
+        <a href="#news5" class="news-item">ROG and DOOM: The Dark Ages collide in the ROG Astral GeForce RTX 5080 OC
+          DOOM
+          Edition graphics card</a>
+        <a href="#news6" class="news-item">Alienware’s newest 34-inch OLED gaming monitor is faster and cheaper</a>
+      </div>
+
+
+      <div class="sidebar">
+        <h3>THE ART OF PC BUILDING<br><small>THE HEART OF PERFORMANCE</small></h3>
+        <div class="sidebar-item">
+          <i class="fa-solid fa-hammer"></i>
+          <a href="#">
+            <h2>BUILD GUIDES</h2>
+          </a>
+        </div>
+        <div class="sidebar-item">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <a href="#">
+            <h2>HARDWARE REVIEWS</h2>
+          </a>
+        </div>
+        <div class="sidebar-item">
+          <i class="fa-solid fa-newspaper"></i>
+          <a href="#">
+            <h2>TECH NEWS</h2>
+          </a>
+        </div>
+        <div class="sidebar-item">
+          <i class="fa-solid fa-envelopes-bulk"></i>
+          <a href="#">
+            <h2>BLOG POSTS</h2>
+          </a>
+        </div>
+
+        <div class="sidebar-item">
+          <i class="fa-solid fa-envelope"></i>
+          <a href="#">
+            <h2>NEWSLETTER AND SUBSCRIPTION</h2>
+          </a>
+        </div>
+
+        <div class="sidebar-item">
+          <i class="fa-solid fa-chalkboard"></i>
+          <a href="#">
+            <h2>LEARNING RESOURCES</h2>
+          </a>
+        </div>
+
+        <div class="sidebar-item">
+          <i class="fa-solid fa-photo-film"></i>
+          <a href="#">
+            <h2>MEDIA</h2>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <section class="tab-section">
+      <input type="radio" name="tabs" id="tab1" checked>
+      <input type="radio" name="tabs" id="tab2">
+
+      <div class="tab-labels">
+        <label for="tab1">POPULAR POSTS</label>
+        <label for="tab2">POPULAR VIDEOS</label>
+      </div>
+
+      <div class="content">
+        <div id="content1" class="tab-content">
+          <div class="post-card">
+            <img src="whatsnewimg/popularpost1.jpg" alt="Post 1" />
+            <div class="post-content">
+              <h4>GIGABYTE Unveils a Series of Groundbreaking AI Innovations for All at CES 2025</h4>
+              <span>January 7 2025 | World-Wide</span>
+              <p>GIGABYTE, the world’s leading computer brand, unveils groundbreaking AI innovations at CES 2025 with
+                new
+                AI-powered products, AI PCs, NVIDIA® GeForce RTX™ 50 series graphics cards, AMD B850 and Intel® B860
+                series motherboards, and OLED monitors. These products deliver high-performance, energy-efficient
+                solutions for gaming, multitasking, and advancing accessible AI for all.</p>
+            </div>
+          </div>
+          <div class="post-card">
+            <img src="whatsnewimg/popularpost2.jpg" alt="Post 2" />
+            <div class="post-content">
+              <h4>Lian Li Reveals Upcoming Products at 2025 Digital Expo</h4>
+              <span>February 5 2025 | BY BTARUNR</span>
+              <p>LIAN LI Industrial Co. Ltd., a leading manufacturer of chassis and PC accessories, will premiere the
+                LIAN
+                LI 2025 DIGITAL EXPO at 9am EST on February 7th, on YouTube. This two-part video series reveals updates
+                to
+                prototype and upcoming products, including cases, AIO liquid coolers, fans, power supplies, and more.
+                Featured products are the LANCOOL 217, LANCOOL 207 Digital, LANCOOL 4, and the O11D MINI V2 cases.
+                Additional innovations include the RS Series rotatable PSU, universal screen and mount, Hydroshift II
+                LCD-C 360R AIO, UNI FANS, and a new vertical GPU bracket.</p>
+            </div>
+          </div>
+
+          <div class="post-card">
+            <img src="whatsnewimg/popularpost3.jpg" alt="Post 5" />
+            <div class="post-content">
+              <h4>Is Windows 11’s built-in antivirus security enough for normal people?</h4>
+              <span>Apr 28 2025 | By Jon Martindale
+              </span>
+              <p>That might’ve been the common sense mantra for decades, but things are starting to change and it may
+                not
+                be true anymore. With added protections incorporated into Microsoft’s latest version of Windows, you may
+                not actually need a separate security solution.</p>
+            </div>
+          </div>
+
+          <div class="post-card">
+            <img src="whatsnewimg/popularpost4.jpg" alt="Post 3" />
+            <div class="post-content">
+              <h4>Intel ‘Lunar Lake’ handhelds, laptops are getting a free gaming boost</h4>
+              <span>April 30 2025 | By Mark Hachman</span>
+              <p>Intel said Tuesday that the company’s latest graphics driver (32.0.101.6734) is offering a
+                power-management update that has the effect of boosting GPU performance by about 10 percent in terms of
+                higher frame rate. You’ll see it first in handhelds, specifically the MSI Claw 8 AI+ and MSI Claw 7 AI+,
+                but it will be rolled out to other Lunar Lake / Core Ultra 200V systems soon, Intel said.</p>
+            </div>
+          </div>
+
+          <div class="post-card">
+            <img src="whatsnewimg/popularpost5.jpg" alt="Post 4" />
+            <div class="post-content">
+              <h4>Microsoft CEO claims 30% of its new code is written by AI</h4>
+              <span>April 30 2025 | By Mark Hachman</span>
+              <p>Generative ‘AI’ isn’t just useful for making bad writing and bad images, it can be used to make
+                software
+                code, too. (I’ll refrain from judging it as bad or good — I’m a writer and a graphic designer, but I
+                can’t
+                code my way out of a wet paper bag.) In fact, Microsoft’s CEO claims that up to 30 percent of the
+                company’s new code is now created with artificial intelligence.</p>
+            </div>
+          </div>
+
+          <div class="post-card">
+            <img src="whatsnewimg/popularpost6.jpg" alt="Post 6" />
+            <div class="post-content">
+              <h4>Logitech slips as Q4 results miss expectations; offers forecast amid tariff uncertainty</h4>
+              <span>April 30 2025 | By Chris Ciaccia</span>
+              <p>Logitech (NASDAQ:LOGI) shares fell 1% in late trading on Tuesday after the computer peripherals maker
+                reported fiscal fourth-quarter results and offered up guidance for the first-quarter of fiscal 2026 amid
+                uncertainty surrounding tariffs.</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="content2" class="tab-content">
+          <div class="post-card">
+            <iframe width="585" height="315" src="https://www.youtube.com/embed/2aNaMJXLIz0"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+            <div class="post-content">
+              <h4>PC Hardware Prices are DOOMED</h4>
+              <span>By The PC Rehab / 1 Months Ago</span>
+            </div>
+          </div>
+
+          <div class="post-card">
+            <iframe width="585" height="315" src="https://www.youtube.com/embed/AClfhmJYyNc?si=5D5HmWMF36RRe94r"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </iframe>
+            <div class="post-content">
+              <h4>I bought the World's RAREST Tech!</h4>
+              <span>By MrWhosetheboss / 2 Months Ago</span>
+            </div>
+          </div>
+
+          <div class="post-card">
+            <iframe width="585" height="315" src="https://www.youtube.com/embed/S_ihY7eHpTg?si=cAcM4LIp4egUXMEW"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="post-content">
+              <h4>The PC industry is in crisis...and can't continue this way...</h4>
+              <span>By JayzTwoCents / 2 Months Ago</span>
+            </div>
+          </div>
+
+          <div class="post-card">
+            <iframe width="585" height="315" src="https://www.youtube.com/embed/If0AhMPqx1g?si=wZEMmZq1UIX31YCg"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="post-content">
+              <h4>Does NVIDIA FINALLY Have A Real Competitor? China's Tech Giant Huawei Readies Ascend 910D AI Chip</h4>
+              <span>By Mint / 3 Months Ago</span>
+            </div>
+          </div>
+
+          <div class="post-card">
+            <iframe width="585" height="315" src="https://www.youtube.com/embed/dyg2t7jMnX4?si=gI9Tmsfmy4kcBbRV"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="post-content">
+              <h4>RTX 5060 Laptops Leaks, GTA 6 Competition, Indian Souls Game, Tech Price Hike & More - ZTU EP 12</h4>
+              <span>By Venom Tech / 4 months Ago</span>
+            </div>
+          </div>
+
+          <div class="post-card">
+            <iframe width="585" height="315" src="https://www.youtube.com/embed/s4ET7Vn3nz4?si=bkMohuuuDJRbA9M5"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <div class="post-content">
+            <h4>20 Coolest Tech in CES 2025</h4>
+            <span>By Cybernews / 4 months ago</span>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <hr>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="left-section">
+          <div class="post-container">
+            <div class="post">
+              <img src="whatsnewimg/L1.jpg" class="post-img" />
+              <div class="post-text">
+                <h3>Productivity Meets Gaming with Razer’s New Ergonomic Pro Click V2 Mice</h3>
+                <p class="description">
+                  Razer™, the leading global lifestyle brand for gamers, today announced the launch of its new line of
+                  productivity focused wireless mice, Razer Pro Click V2 Vertical Edition, and Razer Pro Click V2.
+                  Designed for users who want to integrate gaming products into their work setup, the new Razer Pro
+                  Click
+                  V2 mice emphasize ergonomic comfort, offering all-day support with gaming precision.
+                  <br>
+                  Built with ergonomics in mind, Razer Pro Click V2 Vertical Edition is the brand’s first wireless
+                  vertical ergonomic mouse. It features a 71.7º angle that mimics a natural handshake grip, reducing
+                  strain during prolonged use. The extended thumb rest keeps the hand relaxed as the base support
+                  elevates
+                  the wrist for smoother movements.
+                </p>
+                <div class="actions">
+                  <span>💬 08</span>
+                  <span>👍 104</span>
+                  <span>🔁 39</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="post-container">
+            <div class="post">
+              <img src="whatsnewimg/L2.jpg" class="post-img" />
+              <div class="post-text">
+                <h3>Cooler Master Brings Next-Generation Cooling to Intel Core Ultra 200S CPUs</h3>
+                <p class="description">
+                  The Core Ultra 200S CPUs bring significant architectural changes designed to enhance efficiency and
+                  lower temperatures. While Intel’s improvements to semiconductor architecture play a big part, there’s
+                  also been a design change in the form of a new socket: the LGA1851, paired with the RL-ILM (Reduced
+                  Load- Integrated Lever Mechanism).
+                  <br>
+                  The RL-ILM aims to address some of the common thermal and mechanical issues present in older
+                  mechanisms by reducing the loading pressure and providing a flatter load plate. This change mitigates
+                  the risk of the CPU's IHS (Integrated Heat Spreader) bending, ensuring more consistent and direct
+                  contact with the cooling plate. Cooler Master has always prioritized high-quality engineering, which
+                  is why many of our cooling solutions—designed for the previous LGA1700
+                </p>
+                <div class="actions">
+                  <span>💬 21</span>
+                  <span>👍 154</span>
+                  <span>🔁 09</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="post-container">
+            <div class="post">
+              <img src="whatsnewimg/L3.jpg" class="post-img" />
+              <div class="post-text">
+                <h3>The biggest PC builder regrets: 6 fatal mistakes to avoid!</h3>
+                <p class="description">
+                  There’s a strong argument for chipping away at the overall cost of your rig by buying cheaper hardware
+                  components, but how much performance you will forfeit by doing this isn’t always apparent at the time
+                  you build.
+                  <br>
+                  A classic example of that is if you’ve only invested in a modest video card but suddenly find yourself
+                  not able to play games at the resolution you want. You might have even upgraded your monitor from say
+                  a
+                  1080p to a 1440p one but still find you can only play at 1080p because of your bottlenecked GPU. So
+                  budget where possible, but also think of the specs you need down the track.
+                </p>
+                <div class="actions">
+                  <span>💬 11</span>
+                  <span>👍 74</span>
+                  <span>🔁 30</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="post-container">
+            <div class="post">
+              <img src="whatsnewimg/L4.jpg" class="post-img" />
+              <div class="post-text">
+                <h3>Tariffs could further disrupt the stability of the PC hardware market - and this new study suggests
+                  it's best to buy right now</h3>
+                <p class="description">
+                  While the PC hardware market has always had cases of high demand for certain desktop components
+                  (notably
+                  GPUs) and laptops, it's arguably now hitting unprecedented levels due to US tariffs, and a new study
+                  corroborates this.
+                  <br>
+
+                </p>
+                <div class="actions">
+                  <span>💬 18</span>
+                  <span>👍 204</span>
+                  <span>🔁 309</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="post-container">
+            <div class="post">
+              <img src="whatsnewimg/L5.jpg" class="post-img" />
+              <div class="post-text">
+                <h3>‘Indian epic action adventure game’ The Age of Bhaarat announced for consoles, PC</h3>
+                <p class="description">
+                  “The Age of Bhaarat is a landmark project that aims to propel India onto the global gaming map,” reads
+                  the announcement. “While India is home to a treasure trove of legendary lore, its expression in global
+                  gaming has remained largely untapped. Tara Gaming Ltd. seeks to change that by merging the country’s
+                  creative capital with AAA production capabilities.
+                  <br>
+                  At its core, the brand’s vision is to empower Indian storytellers and bridge the gap between
+                  culturally
+                  rooted stories and cutting-edge game development. The newly unveiled trailer teases sweeping
+                  landscapes,
+                  mythical beasts, powerful warriors, and layered storytelling—all brought together with cinematic
+                  finesse
+                  and technical brilliance. Drawing upon epics, folklore, and traditions, The Age of Bhaarat—India’s own
+                  AAA game—marks a key milestone in Tara Gaming’s ‘Create in India’ ambition.”
+                </p>
+                <div class="actions">
+                  <span>💬 08</span>
+                  <span>👍 111</span>
+                  <span>🔁 109</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="post-container">
+            <div class="post">
+              <img src="whatsnewimg/L6.jpg" class="post-img" />
+              <div class="post-text">
+                <h3>Tipster claims AMD's RX 9060 XT 8GB is planned to launch at Computex — Dismisses cancellation rumors
+                </h3>
+                <p class="description">
+                  It seems that AMD's RX 9060 XT 8GB is still on track, despite rumors suggesting otherwise, per
+                  Benchlife. The publication claims, through its sources, that AMD has no plans to cancel this 8GB VRAM
+                  product or halt supply to board partners. It's important to note that these cancellation rumors might
+                  not be completely baseless. Given the performance limitations of Nvidia's RTX 5060 Ti 8GB, AMD may be
+                  inclined to prioritize the RX 9060 XT 16GB over its 8GB sibling, but that's just speculation.
+                  <br>
+                  The RX 9060 XT branding was officially confirmed by AMD during the RX 9000 reveal at CES. It would
+                  only
+                  be a matter of time before the official announcement, which is reportedly set for Computex in just
+                  three
+                  weeks. Taking a page out of Nvidia's playbook, AMD's RX 9060 XT has been rumored to launch in two VRAM
+                  capacities: 8GB and 16GB. This further segments AMD's RDNA 4 portfolio, though we expect these GPUs to
+                  hit the $350 price point.
+                </p>
+                <div class="actions">
+                  <span>💬 11</span>
+                  <span>👍 224</span>
+                  <span>🔁 80</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="post-container">
+            <div class="post">
+              <img src="whatsnewimg/L7.jpg" class="post-img" />
+              <div class="post-text">
+                <h3>Nvidia RTX 50-series demand drops in Germany — cheapest models of all but RTX 5090 priced at MSRP or
+                  lower</h3>
+                <p class="description">
+                  Nvidia's RTX 50-series product stack has seen a decline in demand in the German market. According to
+                  ComputerBase, most RTX 5080, RTX 5070 Ti, and RTX 5070 AIB partner models are selling for at or below
+                  their respective MSRPs. The only exception is the RTX 5090, which is still in high demand and is
+                  struggling to stay on store shelves.
+                  <br>
+                  The cheapest variations of the RTX 5070 Ti were €869 at the end of March, and were down to €799 last
+                  week — €80 cheaper than the MSRP. The cheapest RTX 5070 cards, likewise, dropped from €599 to €589
+                  (both
+                  of which are lower than the MSRP of €619). The RTX 5060 Ti 8GB and 16GB are too new to have pricing
+                  data
+                  from the end of March, but current pricing shows the cheapest versions to be right at MSRP as of last
+                  week.
+                </p>
+                <div class="actions">
+                  <span>💬 27</span>
+                  <span>👍 304</span>
+                  <span>🔁 99</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="post-container">
+            <div class="post">
+              <img src="whatsnewimg/L8.jpg" class="post-img" />
+              <div class="post-text">
+                <h3>Assassin's Creed Shadows announces more difficulties, more immersion options, more Jesuits, and a bo
+                  staff in its year 1 roadmap</h3>
+                <p class="description">
+                  Assassin's Creed Shadows is the tale of Oda Nobunaga's quest to defrag Japan, and in tribute to the
+                  daimyō's relentless ambition, Ubisoft has announced its post-launch roadmap for the game consisting of
+                  patches, feature drops, and "height-gaining back ejects," which videogames need more of as a general
+                  rule.
+                  <br>
+                  It looks like Shadows is set for a pretty stuffed year, all told. This month alone it's meant to get a
+                  new free quest focusing on Yasuke's Portuguese Jesuit pal Luis Frois, vaguely defined "quality-of-life
+                  improvements," a photo-mode update, a "special collaboration" which I'm guessing is some kind of
+                  co-marketing thing like that Final Fantasy mission in Origins, and that tweak to the game's parkour.
+                </p>
+                <div class="actions">
+                  <span>💬 35</span>
+                  <span>👍 341</span>
+                  <span>🔁 50</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="right-section">
+          <div class="subscribe-box">
+            <h3>
+              SUBSCRIBE <span class="green">TO</span> OUR<br> MAILING LIST
+            </h3>
+            <form class="subscribe-form">
+              <input type="email" placeholder="Email Address" required />
+              <button type="submit">SIGNUP</button>
+            </form>
+          </div>
+
+          <div class="poster-section">
+            <h3>SPONSERS</h3>
+            <div class="poster">
+              <img src="whatsnewimg/posterimg5.jpg" alt="Poster 1" />
+            </div>
+            <div class="poster">
+              <img src="whatsnewimg/posterimg1.jpg" alt="Poster 2" />
+            </div>
+            <div class="poster">
+              <img src="whatsnewimg/posterimg6.jpg" alt="Poster 2" />
+            </div>
+            <div class="poster">
+              <img src="whatsnewimg/posterimg2.jpeg" alt="Poster 2" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+        <div class="footer-section-brand">
+            <img src="whatsnewimg/newbyte.png" alt="logo">
+            <p>We have a great amount of experience in building Gaming PCs, Editing PCs & Workstations for our
+                clients. We build with love and understand what your PC means to you.</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>SHOP CATEGORIES</h3>
+            <ul>
+                <li><a href="#">Custom PC</a></li>
+                <li><a href="#">PC Components</a></li>
+                <li><a href="#">PC Peripherals</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>INFORMATION</h3>
+            <ul>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Shipping Policy</a></li>
+                <li><a href="#">Refund & Cancellation <br> Policy</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>CONTACT US</h3>
+            <p>Store Address:A.K. Complex, Beltola - Basistha Rd, near BSNL Office, Basisthpur, Guwahati, Assam
+                781036</p>
+            <p>Phone: +91-XXXXXXXXXX</p>
+            <p>Timings: 11am-6pm (Mon-Sat), Sunday Holiday</p>
+            <p>Email: support@bytebase.com</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>

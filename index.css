@@ -896,6 +896,11 @@ button1 {
     transition: 0.3s;
 }
 
+button1 a {
+    color: white;
+    text-decoration: none;
+}
+
 button1:hover {
     background: darkred;
 }
@@ -971,6 +976,10 @@ button2 {
     transition: 0.3s;
 }
 
+button2 a {
+    color: white;
+    text-decoration: none;
+}  
 button2:hover {
     background: darkred;
 }
