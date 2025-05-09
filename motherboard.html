@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ByteBase | Motherboard</title>
-    <link rel="stylesheet" href="motherboard.css">
+    <link rel="stylesheet" href="product1.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
         rel="stylesheet">
@@ -59,11 +59,20 @@
             <div class="subtitle">Extreme Performance | Ultimate Stability | Next-Gen Technology</div> 
             <a href="intelmotherboard.html" target="_blank">
             <div class="intel-part">
-                <img src="motherboardimages/intelmain.png"></a>
+                <picture>
+                    <source media="(max-width: 1024px)" srcset="motherboardimages/intel-small.png">
+                    <img src="motherboardimages/intelmain.png">
+                  </picture>
+                </a>
             </div>
+
             <a href="amdmotherboard.html" target="_blank">
             <div class="amd-part">
-                <img src="motherboardimages/amdmain.png"></a>
+                <picture>
+                    <source media="(max-width: 1024px)" srcset="motherboardimages/amd-small.png">
+                    <img src="motherboardimages/amdmain.png">
+                  </picture>
+                </a>
             </div>
         </section>
     </main>
@@ -71,7 +80,7 @@
     <footer>
         <div class="footer-container">
             <div class="footer-section-brand">
-                <img src="monitorimages/newbyte.png" alt="logo">
+                <img src="motherboardimages/newbyte.png" alt="logo">
                 <p>We have a great amount of experience in building Gaming PCs, Editing PCs & Workstations for our
                     clients. We build with love and understand what your PC means to you.</p>
             </div>

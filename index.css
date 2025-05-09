@@ -73,7 +73,7 @@ body {
     align-items: center;
     padding: var(--padding);
     border-radius: 28px;
-    background-color: rgb(42, 41, 41);
+    background-color: rgb(38, 38, 38);
     transition: box-shadow 0.25s;
 }
 
@@ -195,14 +195,16 @@ body {
 
 .categories {
     background-color: black;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
 }
 
 .title {
     color: white;
     font-size: 60px;
     font-weight: bold;
+    padding-top: 5px;
     text-align: center;
+    height: 130px;
     padding-top: 80px;
     padding-bottom: 50px;
 }
@@ -222,6 +224,7 @@ body {
     flex-direction: column;
     display: flex;
     overflow: hidden;
+
 }
 
 .monitor-card img {
@@ -731,6 +734,7 @@ body {
     width: 100px;
     margin-top: -7px;
     margin-left: 140px;
+
 }
 
 .container2 h3 {
@@ -795,8 +799,6 @@ body {
 
 .custom-pc {
     background-color: black;
-    text-align: center;
-    margin: 0px;
     padding: 100px;
 }
 
@@ -806,7 +808,7 @@ body {
     font-weight: bold;
     text-align: center;
     margin-top: -30px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .title1 span {
@@ -820,9 +822,14 @@ body {
     text-align: center;
 }
 
+.custom-pc p1 {
+    color: white;
+    font-size: 20px;
+    margin-left: 600px;
+}
+
 .pc-options {
-    display: flex;
-    justify-content: center;
+    margin-left: 125px;
     gap: 50px;
     margin-top: 20px;
 }
@@ -909,6 +916,7 @@ button1:hover {
     background: linear-gradient(#202020, black);
     position: relative;
     padding-bottom: 297px;
+    margin-left: 30px;
     text-align: center;
     border-radius: 15px;
     transition: 0.3s;
@@ -979,7 +987,8 @@ button2 {
 button2 a {
     color: white;
     text-decoration: none;
-}  
+}
+
 button2:hover {
     background: darkred;
 }
@@ -1240,11 +1249,11 @@ footer {
 }
 
 .footer-section-brand p {
-    width: 300px;
     font-size: 16px;
     font-weight: 600;
     margin-top: -70px;
     margin-left: -80px;
+    width: 300px;
 }
 
 .footer-section {
@@ -1255,13 +1264,14 @@ footer {
 
 .footer-section h3 {
     font-size: 18px;
-    margin-bottom: 10px;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .footer-section p {
     font-weight: 600;
 }
+
 .footer-section ul {
     list-style: none;
     padding: 0;
@@ -1272,8 +1282,8 @@ footer {
 }
 
 .footer-section ul li a {
-    font-weight: 600;
     color: black;
+    font-weight: 600;
     text-decoration: none;
 }
 
@@ -1293,4 +1303,789 @@ footer {
 
 .social-icons a:hover {
     color: black;
+}
+
+@media (max-width: 1024px) {
+    .navbar {
+        display: flex;
+        background-color: black;
+        position: relative;
+        height: 100px;
+    }
+
+    .logo img {
+        display: flex;
+        width: 170px;
+        margin-top: 0px;
+        margin-left: 70px;
+    }
+
+    .navdiv li {
+        list-style: none;
+        position: absolute;
+        display: inline-block;
+        margin-left: 460px;
+        margin-top: -45px;
+    }
+
+    .navdiv li a {
+        color: white;
+        padding: 10px 0px 0px 15px;
+        font-size: 13px;
+        display: inline-block;
+        position: relative;
+    }
+
+    .search {
+        --padding: 14px;
+        margin-left: 15px;
+        position: relative;
+        width: 180px;
+        height: 10px;
+        display: flex;
+        align-items: center;
+        padding: var(--padding);
+        border-radius: 28px;
+        background-color: rgb(38, 38, 38);
+        transition: box-shadow 0.25s;
+    }
+
+    .search-input {
+        font-size: 14px;
+        margin-left: 8px;
+        color: white;
+        outline: none;
+        background: transparent;
+        width: 300px;
+        border: none;
+    }
+
+    .search-icon {
+        color: white;
+        font-size: 17px;
+        cursor: pointer;
+    }
+
+    .cart-icon {
+        position: relative;
+        font-size: 15px;
+        margin-top: 46px;
+        margin-left: 430px;
+        cursor: pointer;
+        color: white;
+    }
+
+    .cart-icon span {
+        position: absolute;
+        top: -5px;
+        right: -10px;
+        background: red;
+        color: white;
+        font-size: 12px;
+        width: 12px;
+        height: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+    }
+
+    .fav-icon {
+        position: relative;
+        font-size: 18px;
+        margin-top: 45px;
+        margin-left: 20px;
+        cursor: pointer;
+        color: white;
+    }
+
+    .fav-icon span {
+        position: absolute;
+        top: -4px;
+        right: -10px;
+        background: red;
+        color: white;
+        font-size: 12px;
+        width: 12px;
+        height: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+    }
+
+    .wrapper {
+        display: flex;
+        width: 500%;
+        height: 100%;
+        animation: slide 30s infinite;
+    }
+
+    .wrapper img {
+        width: 100%;
+        height: 496px;
+        object-fit: cover;
+    }
+
+    .categories {
+        padding-bottom: 80px;
+    }
+
+    .title {
+        font-size: 40px;
+        margin: -30px 0px -90px 0px;
+        text-align: center;
+    }
+
+    .monitor-card {
+        margin-left: 50px;
+        height: 200px;
+        width: 200px;
+    }
+
+    .monitor-card img {
+        width: 200px;
+        height: 180px;
+    }
+
+    .monitor-card h3 {
+        font-size: 15px;
+        margin-top: -23px;
+        margin-left: 0px;
+    }
+
+    .motherboard-card {
+        margin-top: -200px;
+        margin-left: 290px;
+        height: 200px;
+        width: 200px;
+    }
+
+    .motherboard-card img {
+        width: 200px;
+        height: 180px;
+    }
+
+    .motherboard-card h3 {
+        font-size: 15px;
+        margin-top: -23px;
+        margin-left: 0px;
+    }
+
+    .keyboard-card {
+        margin-top: -200px;
+        margin-left: 530px;
+        height: 200px;
+        width: 200px;
+    }
+
+    .keyboard-card img {
+        width: 200px;
+        height: 180px;
+    }
+
+    .keyboard-card h3 {
+        font-size: 15px;
+        margin-top: -23px;
+        margin-left: 0px;
+    }
+
+    .mouse-card {
+        margin-left: 770px;
+        margin-top: -200px;
+        height: 200px;
+        width: 200px;
+    }
+
+    .mouse-card img {
+        width: 200px;
+        height: 180px;
+    }
+
+    .mouse-card h3 {
+        font-size: 15px;
+        margin-top: -23px;
+        margin-left: 0px;
+    }
+
+    .graphic-card {
+        margin-left: 50px;
+        margin-top: 50px;
+        height: 200px;
+        width: 200px;
+    }
+
+    .graphic-card img {
+        width: 200px;
+        height: 180px;
+    }
+
+    .graphic-card h3 {
+        font-size: 15px;
+        margin-top: -23px;
+        margin-left: 0px;
+    }
+
+    .cooler-card {
+        margin-left: 290px;
+        margin-top: -200px;
+        height: 200px;
+        width: 200px;
+    }
+
+    .cooler-card img {
+        width: 200px;
+        height: 180px;
+    }
+
+    .cooler-card h3 {
+        font-size: 15px;
+        margin-top: -23px;
+        margin-left: 0px;
+    }
+
+    .headphone-card {
+        margin-left: 530px;
+        margin-top: -200px;
+        height: 200px;
+        width: 200px;
+    }
+
+    .headphone-card img {
+        width: 200px;
+        height: 180px;
+    }
+
+    .headphone-card h3 {
+        font-size: 15px;
+        margin-top: -23px;
+        margin-left: 0px;
+    }
+
+    .cabinet-card {
+        margin-left: 770px;
+        margin-top: -200px;
+        height: 200px;
+        width: 200px;
+    }
+
+    .cabinet-card img {
+        width: 200px;
+        height: 180px;
+    }
+
+    .cabinet-card h3 {
+        font-size: 15px;
+        margin-top: -23px;
+        margin-left: 0px;
+    }
+
+    .powersupply-card {
+        margin-left: 50px;
+        margin-top: 50px;
+        height: 200px;
+        width: 200px;
+    }
+
+    .powersupply-card img {
+        width: 200px;
+        height: 180px;
+    }
+
+    .powersupply-card h3 {
+        font-size: 15px;
+        margin-top: -23px;
+        margin-left: 0px;
+    }
+
+    .processor-card {
+        margin-left: 300px;
+        margin-top: -200px;
+        height: 200px;
+        width: 200px;
+    }
+
+    .processor-card img {
+        width: 200px;
+        height: 180px;
+    }
+
+    .processor-card h3 {
+        font-size: 15px;
+        margin-top: -23px;
+        margin-left: 0px;
+    }
+
+    .ram-card {
+        margin-left: 530px;
+        margin-top: -200px;
+        height: 200px;
+        width: 200px;
+    }
+
+    .ram-card img {
+        width: 200px;
+        height: 180px;
+    }
+
+    .ram-card h3 {
+        font-size: 15px;
+        margin-top: -23px;
+        margin-left: 0px;
+    }
+
+    .ssd-card {
+        margin-left: 770px;
+        margin-top: -200px;
+        height: 200px;
+        width: 200px;
+    }
+
+    .ssd-card img {
+        width: 200px;
+        height: 180px;
+    }
+
+    .ssd-card h3 {
+        font-size: 15px;
+        margin-top: -23px;
+        margin-left: 0px;
+    }
+
+    .new-section {
+        height: 130px;
+    }
+
+    .container1 {
+        width: 230px;
+        margin-left: 20px;
+        top: -55px;
+        padding-bottom: 30px;
+    }
+
+    .container1 img {
+        width: 50px;
+        margin-top: -10px;
+        margin-left: 95px;
+    }
+
+    .container1 h3 {
+        color: white;
+        font-size: 15px;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+    .container2 {
+        width: 230px;
+        margin-left: 270px;
+        margin-top: -150px;
+        top: -48px;
+    }
+
+    .container2 img {
+        width: 50px;
+        margin-top: -10px;
+        margin-left: 90px;
+    }
+
+    .container2 h3 {
+        color: white;
+        font-size: 15px;
+        margin-top: 15px;
+        margin-left: 25px;
+    }
+
+    .container3 {
+        width: 230px;
+        margin-left: 520px;
+        margin-top: -20px;
+        top: -170px;
+        padding-bottom: 30px;
+    }
+
+    .container3 img {
+        width: 50px;
+        margin-top: -9px;
+        margin-left: 90px;
+    }
+
+    .container3 h3 {
+        color: white;
+        font-size: 15px;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+
+    .container4 {
+        width: 230px;
+        margin-left: 770px;
+        margin-top: -210px;
+        top: -102px;
+        padding-bottom: 25px;
+    }
+
+    .container4 img {
+        width: 50px;
+        margin-top: -7px;
+        margin-left: 90px;
+    }
+
+    .container4 h3 {
+        color: white;
+        font-size: 15px;
+        margin-top: 15px;
+        margin-left: 30px;
+    }
+
+    .custom-pc {
+        background-color: black;
+        padding: 50px;
+    }
+
+    .title1 {
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: -20px;
+    }
+
+    .subtitle1 {
+        font-size: 15px;
+        margin-top: -10px;
+    }
+
+    .custom-pc p1 {
+        font-size: 15px;
+        margin-left: 250px;
+    }
+
+    .pc-options {
+        margin-left: 40px;
+    }
+
+    .pc-build1 {
+        top: -10px;
+        width: 400px;
+        height: 200px;
+    }
+
+    .pc-build1 h3 {
+        font-size: 20px;
+        margin-top: 23px;
+    }
+
+    .pc-build1 img {
+        width: 300px;
+        height: 250px;
+        margin-top: 20px;
+    }
+
+    .overlay-image1 {
+        top: 150px;
+        left: 50px;
+        max-height: 90px;
+        max-width: 90px;
+    }
+
+    .stock1 {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    .price1 {
+        font-size: 15px;
+        margin-top: 15px;
+        padding-bottom: 30px;
+    }
+
+    button1 {
+        background: red;
+        color: #fff;
+        border: none;
+        padding: 9px 9px;
+        cursor: pointer;
+        border-radius: 5px;
+        width: 100px;
+        transition: 0.3s;
+    }
+
+    .pc-build2 {
+        margin-left: 30px;
+        top: -10px;
+        width: 400px;
+        height: 200px;
+    }
+
+    .pc-build2 h3 {
+        font-size: 20px;
+        margin-top: 70px;
+    }
+
+    .pc-build2 img {
+        width: 420px;
+        height: 370px;
+        margin: -100px;
+        margin-top: -48px;
+    }
+
+    .overlay-image2 {
+        top: 220px;
+        left: 150px;
+        max-height: 90px;
+        max-width: 90px;
+    }
+
+    .stock2 {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    .price2 {
+        font-size: 15px;
+        margin-top: 15px;
+        padding-bottom: 30px;
+    }
+
+    button2 {
+        padding: 9px 9px;
+        margin-top: -1px;
+        width: 150px;
+    }
+
+    .sec {
+        padding: 160px;
+        padding-top: 10px;
+    }
+
+    .con {
+        padding: 30px 10px;
+    }
+
+    .title2 {
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: -15px;
+    }
+
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    .boxx {
+        padding: 10px 20px 10px 20px;
+    }
+
+    .boxx h3 {
+        width: 150px;
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .boxx p {
+        margin-top: 8px;
+        font-size: 12px;
+    }
+
+    .boxx::before {
+        font-size: 100px;
+        color: #ff4f6460;
+        top: 30px;
+        left: 70px;
+    }
+
+    .brands {
+        padding-bottom: 70px;
+    }
+
+    .brands h3 {
+        font-size: 40px;
+        padding-top: 50px;
+    }
+
+    .title3 {
+        font-size: 40px;
+        padding: 40px 0px 20px 0px;
+    }
+
+    .rog {
+        margin-top: 30px;
+        margin-left: 50px;
+        width: 150px;
+        height: 130px;
+    }
+
+    .rog img {
+        width: 130px;
+        height: 120px;
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+
+    .aorus {
+        margin-top: -130px;
+        margin-left: 250px;
+        width: 130px;
+        height: 120px;
+    }
+
+    .aorus img {
+        width: 90px;
+        height: 90px;
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+
+    .logitech {
+        margin-top: -120px;
+        margin-left: 430px;
+        width: 130px;
+        height: 120px;
+    }
+
+    .logitech img {
+        width: 80px;
+        height: 80px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .amd {
+        margin-top: -120px;
+        margin-left: 59%;
+        width: 190px;
+        height: 120px;
+    }
+
+    .amd img {
+        width: 170px;
+        height: 90px;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .corsair {
+        margin-top: -120px;
+        margin-left: 81%;
+        width: 130px;
+        height: 120px;
+    }
+
+    .corsair img {
+        width: 160px;
+        height: 160px;
+        margin-left: -20px;
+        margin-top: -30px;
+    }
+
+    .razer {
+        margin-top: 30px;
+        margin-left: 100px;
+        width: 130px;
+        height: 100px;
+    }
+
+    .razer img {
+        width: 160px;
+        height: 100px;
+        margin-left: -15px;
+        margin-top: 0px;
+    }
+
+    .intel {
+        margin-top: -100px;
+        margin-left: 290px;
+        width: 170px;
+        height: 110px;
+    }
+
+    .intel img {
+        width: 150px;
+        height: 100px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+    .msi {
+        margin-top: -115px;
+        margin-left: 530px;
+        width: 130px;
+        height: 120px;
+    }
+
+    .msi img {
+        width: 230px;
+        height: 120px;
+        margin-left: -50px;
+        margin-top: 0px;
+    }
+
+    .coolermaster {
+        margin-top: -120px;
+        margin-left: 730px;
+        width: 180px;
+        height: 110px;
+    }
+
+    .coolermaster img {
+        width: 200px;
+        height: 150px;
+        margin-left: -10px;
+        margin-top: -20px;
+    }
+
+    footer {
+        padding: 30px;
+    }
+
+    .footer-container {
+        max-width: 1200px;
+        margin-left: 50px;
+    }
+
+    .footer-section-brand {
+        margin-left: -200px;
+        padding-left: 130px;
+        width: 300px;
+        height: 150px;
+    }
+
+    .footer-section-brand img {
+        margin-left: -20px;
+        margin-top: -60px;
+        width: 340px;
+        height: 200px;
+    }
+
+    .footer-section-brand p {
+        font-size: 13px;
+        margin-top: -70px;
+        margin-left: 50px;
+        width: 200px;
+    }
+
+    .footer-section {
+        min-width: 100px;
+        margin: 15px;
+    }
+
+    .footer-section h3 {
+        font-size: 15px;
+    }
+
+    .footer-section ul li a {
+        font-size: 13px;
+    }
+    
+    .footer-section p {
+        font-size: 13px;
+    }
+
+    .social-icons a {
+        color: white;
+        margin-right: 10px;
+        font-size: 20px;
+    }
 }

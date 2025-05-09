@@ -350,6 +350,7 @@ footer {
 .footer-section p {
     font-weight: 600;
 }
+
 .footer-section ul {
     list-style: none;
     padding: 0;
@@ -381,4 +382,219 @@ footer {
 
 .social-icons a:hover {
     color: black;
+}
+
+@media (max-width: 1024px) {
+    .navbar {
+        display: flex;
+        background-color: black;
+        position: relative;
+        height: 100px;
+    }
+
+    .logo img {
+        display: flex;
+        width: 170px;
+        margin-top: 0px;
+        margin-left: 70px;
+    }
+
+    .navdiv li {
+        list-style: none;
+        position: absolute;
+        display: inline-block;
+        margin-left: 460px;
+        margin-top: -45px;
+    }
+
+    .navdiv li a {
+        color: white;
+        padding: 10px 0px 0px 15px;
+        font-size: 13px;
+        display: inline-block;
+        position: relative;
+    }
+
+    .search {
+        --padding: 14px;
+        margin-left: 15px;
+        position: relative;
+        width: 180px;
+        height: 10px;
+        display: flex;
+        align-items: center;
+        padding: var(--padding);
+        border-radius: 28px;
+        background-color: rgb(38, 38, 38);
+        transition: box-shadow 0.25s;
+    }
+
+    .search-input {
+        font-size: 14px;
+        margin-left: 8px;
+        color: white;
+        outline: none;
+        background: transparent;
+        width: 300px;
+        border: none;
+    }
+
+    .search-icon {
+        color: white;
+        font-size: 17px;
+        cursor: pointer;
+    }
+
+    .cart-icon {
+        position: relative;
+        font-size: 15px;
+        margin-top: 46px;
+        margin-left: 430px;
+        cursor: pointer;
+        color: white;
+    }
+
+    .cart-icon span {
+        position: absolute;
+        top: -5px;
+        right: -10px;
+        background: red;
+        color: white;
+        font-size: 12px;
+        width: 12px;
+        height: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+    }
+
+    .fav-icon {
+        position: relative;
+        font-size: 18px;
+        margin-top: 45px;
+        margin-left: 20px;
+        cursor: pointer;
+        color: white;
+    }
+
+    .fav-icon span {
+        position: absolute;
+        top: -4px;
+        right: -10px;
+        background: red;
+        color: white;
+        font-size: 12px;
+        width: 12px;
+        height: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+    }
+
+    .background-img {
+        height: 250px;
+    }
+
+    .container {
+        margin-bottom: -50px;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 12%;
+        left: 250px;
+        transform: translate(-50%, -50%);
+        color: white;
+    }
+
+    .overlay h2 {
+        font-size: 45px;
+        margin-left: -40px;
+    }
+
+    .overlay p {
+        font-size: 15px;
+        margin-left: 210px;
+        line-height: 1.5;
+        text-align: start;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    .form-group textarea {
+        height: 100px;
+    } 
+
+    .contact-form button {
+        padding: 10px 20px;
+        font-size: 14px;
+        margin-left: -445px;
+    }
+
+    .contact-info h3 {
+        font-size: 20px;
+    }
+
+    .contact-info p {
+        font-size: 13px;
+    }
+
+    footer {
+        padding: 30px;
+    }
+
+    .footer-container {
+        max-width: 1200px;
+        margin-left: 50px;
+    }
+
+    .footer-section-brand {
+        margin-left: -200px;
+        padding-left: 130px;
+        width: 300px;
+        height: 150px;
+    }
+
+    .footer-section-brand img {
+        margin-left: -20px;
+        margin-top: -60px;
+        width: 340px;
+        height: 200px;
+    }
+
+    .footer-section-brand p {
+        font-size: 13px;
+        margin-top: -70px;
+        margin-left: 50px;
+        width: 200px;
+    }
+
+    .footer-section {
+        min-width: 100px;
+        margin: 15px;
+    }
+
+    .footer-section h3 {
+        font-size: 15px;
+    }
+
+    .footer-section ul li a {
+        font-size: 13px;
+    }
+
+    .footer-section p {
+        font-size: 13px;
+    }
+
+    .social-icons a {
+        color: white;
+        margin-right: 10px;
+        font-size: 20px;
+    }
 }

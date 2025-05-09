@@ -221,7 +221,7 @@ body {
 }
 
 .particular {
-    background-image: url(custombuiltimages/particular.jpg);
+    background-image: url(custombuiltimages/particular.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -238,7 +238,7 @@ body {
 }
 
 .particular-part h3 {
-    color: #FF4F64;
+    color: white;
     width: 600px;
     font-size: 53px;
 }
@@ -410,4 +410,236 @@ footer {
 
 .social-icons a:hover {
     color: black;
+}
+
+@media (max-width: 1024px) {
+    .navbar {
+        height: 100px;
+    }
+
+    .logo img {
+        width: 170px;
+        margin-top: 0px;
+        margin-left: 70px;
+    }
+
+    .navdiv li {
+        margin-left: 460px;
+        margin-top: -45px;
+    }
+
+    .navdiv li a {
+        padding: 10px 0px 0px 15px;
+        font-size: 13px;
+    }
+
+    .search {
+        --padding: 14px;
+        margin-left: 15px;
+        width: 180px;
+        height: 10px;
+    }
+
+    .search-input {
+        font-size: 14px;
+        margin-left: 8px;
+        width: 300px;
+    }
+
+    .search-icon {
+        font-size: 17px;
+    }
+
+    .cart-icon {
+        font-size: 15px;
+        margin-top: 46px;
+        margin-left: 430px;
+        ;
+    }
+
+    .cart-icon span {
+        top: -5px;
+        right: -10px;
+        font-size: 12px;
+        width: 12px;
+        height: 12px;
+    }
+
+    .fav-icon {
+        font-size: 18px;
+        margin-top: 45px;
+        margin-left: 20px;
+    }
+
+    .fav-icon span {
+        top: -4px;
+        right: -10px;
+        font-size: 12px;
+        width: 12px;
+        height: 12px;
+    }
+
+    .content {
+        height: 550px;
+    }
+
+    .title {
+        font-size: 40px;
+        margin-top: 10px;
+    }
+
+    .subtitle {
+        font-size: 15px;
+    }
+
+    .first-content {
+        width: 110%;
+        height: 470px;
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+
+    .second-content {
+        width: 110%;
+        height: 800px;
+        margin-left: 540px;
+        margin-top: -470px;
+    }
+
+    .first-content img,
+    .second-content img {
+        width: 35%;
+        border-radius: 10px;
+        height: auto;
+    }
+
+    .particular {
+        height: 530px;
+    }
+
+    .particular-part {
+        width: 40%;
+        height: 600px;
+        padding: 80px;
+        padding-left: 60px;
+        padding-right: 50px;
+    }
+    
+    .particular-part h3 {
+        width: 450px;
+        font-size: 34px;
+    }
+    
+    .particular-part p {
+        font-size: 13px;
+        width: 410px;
+        margin-top: 30px;
+    }
+    
+    .particular-part1 {
+        width: 800px;
+        height: 800px;
+        padding-top: 50px;
+        margin-left: 45%;
+        margin-top: -890px;
+    }
+    
+    .particular-img1 {
+        width: 150px;
+        height: 150px;
+        margin-top: 120px;
+        margin-left: 180px;
+    }
+    
+    .particular-img2 {
+        width: 190px;
+        height: 190px;
+        margin-left: 10px;
+        margin-top: 160px;
+    }
+    
+    .particular-img3 {
+        width: 200px;
+        height: 200px;
+        margin-left: -190px;
+        margin-top: 360px;
+    }
+    
+    .particular-img4 {
+        width: 250px;
+        height: 250px;
+        margin-top: 280px;
+        margin-left: -460px;
+    }
+
+    .features {
+        padding: 30px;
+        max-width: 1100px;
+        margin-left: 80px;
+    }
+
+    .feature i {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .feature h3 {
+        font-size: 15px;
+    }
+
+    .feature p {
+        font-size: 12px;
+    }
+
+    footer {
+        padding: 30px;
+    }
+
+    .footer-container {
+        max-width: 1200px;
+        margin-left: 50px;
+    }
+
+    .footer-section-brand {
+        margin-left: -200px;
+        padding-left: 130px;
+        width: 300px;
+        height: 150px;
+    }
+
+    .footer-section-brand img {
+        margin-left: -20px;
+        margin-top: -60px;
+        width: 340px;
+        height: 200px;
+    }
+
+    .footer-section-brand p {
+        font-size: 13px;
+        margin-top: -70px;
+        margin-left: 50px;
+        width: 200px;
+    }
+
+    .footer-section {
+        min-width: 100px;
+        margin: 15px;
+    }
+
+    .footer-section h3 {
+        font-size: 15px;
+    }
+
+    .footer-section ul li a {
+        font-size: 13px;
+    }
+    
+    .footer-section p {
+        font-size: 13px;
+    }
+
+    .social-icons a {
+        margin-right: 10px;
+        font-size: 20px;
+    }
 }
