@@ -511,7 +511,7 @@ footer {
     color: black;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1440px) {
     .navbar {
         height: 100px;
     }
@@ -519,28 +519,32 @@ footer {
     .logo img {
         width: 170px;
         margin-top: 0px;
-        margin-left: 70px;
+        margin-left: 190px;
     }
 
     .navdiv li {
-        margin-left: 460px;
+        margin-left: 600px;
         margin-top: -45px;
     }
 
     .navdiv li a {
         padding: 10px 0px 0px 15px;
-        font-size: 13px;
+        font-size: 15px;
+    }
+
+    .navdiv li a::after {
+        bottom: -5px;
     }
 
     .search {
         --padding: 14px;
         margin-left: 15px;
-        width: 180px;
+        width: 200px;
         height: 10px;
     }
 
     .search-input {
-        font-size: 14px;
+        font-size: 16px;
         margin-left: 8px;
         width: 300px;
     }
@@ -550,13 +554,13 @@ footer {
     }
 
     .cart-icon {
-        font-size: 15px;
+        font-size: 17px;
         margin-top: 46px;
-        margin-left: 430px;
-        ;
+        margin-left: 570px;
     }
 
     .cart-icon span {
+        position: absolute;
         top: -5px;
         right: -10px;
         font-size: 12px;
@@ -565,9 +569,10 @@ footer {
     }
 
     .fav-icon {
-        font-size: 18px;
+        position: relative;
+        font-size: 19px;
         margin-top: 45px;
-        margin-left: 20px;
+        margin-left: 30px;
     }
 
     .fav-icon span {
@@ -580,9 +585,9 @@ footer {
 
     .sidebar-container {
         gap: 20px;
-        width: 200px;
+        width: 220px;
         margin-left: 35px;
-        margin-top: 30px;
+        margin-top: 20px;
     }
 
     .sidebar {
@@ -592,7 +597,7 @@ footer {
     }
 
     .sidebar h3 {
-        font-size: 18px;
+        font-size: 25px;
         margin-left: 0px;
     }
 
@@ -600,14 +605,14 @@ footer {
         width: 250px;
         margin-left: 0px;
         margin-bottom: 15px;
-        font-size: 10px;
+        font-size: 13px;
     }
 
     .filter h4 {
         width: 250px;
         margin-left: 0px;
         margin-bottom: 15px;
-        font-size: 15px;
+        font-size: 17px;
     }
 
     .span-index span {
@@ -615,111 +620,111 @@ footer {
     }
 
     .monitorcrumb {
-        margin-left: 250px;
-        margin-top: -1600px;
+        margin-left: 280px;
+        margin-top: -1670px;
     }
 
     .amdmotherboardcrumb {
-        margin-left: 250px;
-        margin-top: -1190px;
+        margin-left: 280px;
+        margin-top: -1240px;
     }
 
     .keyboardcrumb {
-        margin-left: 250px;
-        margin-top: -1180px;
+        margin-left: 280px;
+        margin-top: -1230px;
     }
 
     .mousecrumb {
-        margin-left: 250px;
-        margin-top: -1220px;
+        margin-left: 280px;
+        margin-top: -1270px;
     }
 
     .graphiccrumb {
-        margin-left: 250px;
-        margin-top: -1460px;
+        margin-left: 280px;
+        margin-top: -1530px;
     }
 
     .coolercrumb {
-        margin-left: 250px;
-        margin-top: -1350px;
+        margin-left: 280px;
+        margin-top: -1420px;
     }
 
     .headphonecrumb {
-        margin-left: 250px;
-        margin-top: -1620px;
+        margin-left: 280px;
+        margin-top: -1700px;
     }
 
     .cabinetcrumb {
-        margin-left: 250px;
-        margin-top: -1580px;
+        margin-left: 280px;
+        margin-top: -1660px;
     }
 
     .powersupplycrumb,
     .intelmotherboardcrumb {
-        margin-left: 250px;
-        margin-top: -1230px;
+        margin-left: 280px;
+        margin-top: -1290px;
     }
 
     .intelprocessorcrumb {
-        margin-left: 250px;
-        margin-top: -970px;
+        margin-left: 280px;
+        margin-top: -1010px;
     }
 
     .amdprocessorcrumb {
-        margin-left: 250px;
-        margin-top: -880px;
+        margin-left: 280px;
+        margin-top: -990px;
     }
 
     .ramcrumb {
-        margin-left: 250px;
-        margin-top: -1320px;
+        margin-left: 280px;
+        margin-top: -1390px;
     }
 
     .ssdcrumb {
         width: 1400px;
         height: 50px;
-        margin-left: 250px;
-        margin-top: -1040px;
+        margin-left: 280px;
+        margin-top: -1100px;
     }
 
     .bread a {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .results-count {
-        font-size: 12px;
-        margin-left: 410px;
+        font-size: 14px;
+        margin-left: 695px;
         margin-top: -20px;
     }
 
     .sort-dropdown {
         height: 25px;
-        margin-top: -25px;
-        margin-left: 580px;
+        margin-top: -30px;
+        margin-left: 900px;
     }
 
     .sort-dropdown select {
         padding: 5px 0px;
-        width: 170px;
-        font-size: 10px;
+        width: 210px;
+        font-size: 13px;
     }
 
     hr {
-        width: 740px;
+        width: 1095px;
         margin-top: -10px;
-        margin-left: 260px;
+        margin-left: 290px;
     }
 
     .product-grid {
-        grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(260px, 0fr));
         gap: 20px;
-        margin-top: 20px;
-        margin-left: 260px;
+        margin-top: 40px;
+        margin-left: 290px;
     }
 
     .product-card,
     .product-card1 {
-        width: 200px;
+        width: 240px;
     }
 
     footer {
@@ -733,45 +738,47 @@ footer {
 
     .footer-section-brand {
         margin-left: -200px;
-        padding-left: 130px;
+        padding-left: 250px;
         width: 300px;
         height: 150px;
     }
 
     .footer-section-brand img {
-        margin-left: -20px;
+        margin-left: -50px;
         margin-top: -60px;
-        width: 340px;
-        height: 200px;
+        width: 380px;
+        height: 230px;
     }
 
     .footer-section-brand p {
-        font-size: 13px;
+        font-size: 15px;
         margin-top: -70px;
-        margin-left: 50px;
-        width: 200px;
+        margin-left: 30px;
+        width: 230px;
     }
 
     .footer-section {
         min-width: 100px;
-        margin: 15px;
+        padding-left: 20px;
+        margin: 30px;
     }
 
     .footer-section h3 {
-        font-size: 15px;
+        font-size: 17px;
     }
 
     .footer-section ul li a {
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .footer-section p {
-        font-size: 13px;
+        font-size: 15px;
+        width: 250px;
     }
 
     .social-icons a {
         color: white;
         margin-right: 10px;
-        font-size: 20px;
+        font-size: 25px;
     }
 }

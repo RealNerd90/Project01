@@ -820,7 +820,7 @@ footer {
     color: black;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1440px) {
     .navbar {
         height: 100px;
     }
@@ -828,28 +828,32 @@ footer {
     .logo img {
         width: 170px;
         margin-top: 0px;
-        margin-left: 70px;
+        margin-left: 190px;
     }
 
     .navdiv li {
-        margin-left: 460px;
+        margin-left: 600px;
         margin-top: -45px;
     }
 
     .navdiv li a {
         padding: 10px 0px 0px 15px;
-        font-size: 13px;
+        font-size: 15px;
+    }
+
+    .navdiv li a::after {
+        bottom: -5px;
     }
 
     .search {
         --padding: 14px;
         margin-left: 15px;
-        width: 180px;
+        width: 200px;
         height: 10px;
     }
 
     .search-input {
-        font-size: 14px;
+        font-size: 16px;
         margin-left: 8px;
         width: 300px;
     }
@@ -859,13 +863,13 @@ footer {
     }
 
     .cart-icon {
-        font-size: 15px;
+        font-size: 17px;
         margin-top: 46px;
-        margin-left: 430px;
-        ;
+        margin-left: 570px;
     }
 
     .cart-icon span {
+        position: absolute;
         top: -5px;
         right: -10px;
         font-size: 12px;
@@ -874,9 +878,10 @@ footer {
     }
 
     .fav-icon {
-        font-size: 18px;
+        position: relative;
+        font-size: 19px;
         margin-top: 45px;
-        margin-left: 20px;
+        margin-left: 30px;
     }
 
     .fav-icon span {
@@ -892,50 +897,50 @@ footer {
     }
 
     .fixed-side img {
-        width: 400px;
-        height: 400px;
-        margin-top: -20px;
-        margin-left: 10px;
+        width: 550px;
+        height: 550px;
+        margin-top: 20px;
+        margin-left: 80px;
     }
 
     .overlay-image1 {
-        top: 280px;
+        top: 370px;
         left: 40px;
-        max-height: 120px;
-        max-width: 120px;
+        max-height: 170px;
+        max-width: 170px;
     }
 
     .title {
-        font-size: 40px;
+        font-size: 60px;
         padding-top: 10px;
-        margin: -20px 0 0 150px;
+        margin: -20px 0px 0px 270px;
     }
 
     .cashback-info {
-        width: 350px;
-        padding: 14px;
-        margin-left: 150px;
+        width: 450px;
+        padding: 17px;
+        margin-left: 270px;
     }
 
     .cashback-info strong,
     p {
-        font-size: 14px;
+        font-size: 16px;
         margin-left: 1px;
     }
 
     .cashback-info ol li {
-        font-size: 12px;
+        font-size: 14px;
         margin-left: 13px;
     }
 
     .section {
-        width: 365px;
+        width: 470px;
         padding: 10px;
-        margin: 20px 0 10px 150px;
+        margin: 20px 0px 10px 270px;
     }
 
     .component-title {
-        font-size: 13px;
+        font-size: 17px;
         margin-bottom: 5px;
     }
 
@@ -948,7 +953,7 @@ footer {
     .dropdown-label2 h3,
     .dropdown-label3 h3,
     .dropdown-label4 h3 {
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .dropdown-option,
@@ -964,13 +969,14 @@ footer {
     .dropdown-option2 h3,
     .dropdown-option3 h3,
     .dropdown-option4 h3 {
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .dropdown-label1 .price1,
-    .dropdown-label2 .price2 .dropdown-label3 .price3,
+    .dropdown-label2 .price2,
+    .dropdown-label3 .price3,
     .dropdown-label4 .price4 {
-        font-size: 14px;
+        font-size: 15px;
         margin-right: 20px;
         margin-top: 0px;
     }
@@ -980,54 +986,54 @@ footer {
     .dropdown-option2 .price2,
     .dropdown-option3 .price3,
     .dropdown-option4 .price4 {
-        font-size: 14px;
-        margin-left: 285px;
+        font-size: 15px;
+        margin-left: 385px;
     }
 
     .dropdown-label .price {
-        font-size: 14px;
+        font-size: 15px;
         margin-right: 20px;
         margin-top: 10px;
     }
 
     .dropdown-label img {
-        width: 35px;
-        height: 35px;
+        width: 50px;
+        height: 50px;
     }
 
     .dropdown-option img {
-        width: 35px;
-        height: 35px;
+        width: 50px;
+        height: 50px;
         margin-left: 5px;
     }
 
     .dropdown-label1 img {
-        width: 60px;
-        height: 40px;
+        width: 65px;
+        height: 50px;
         margin-right: 20px;
     }
 
     .dropdown-option1 img {
-        width: 60px;
-        height: 40px;
+        width: 65px;
+        height: 50px;
         margin-right: 20px;
     }
 
     .dropdown-label2 img {
-        width: 50px;
-        height: 20px;
+        width: 55px;
+        height: 25px;
         margin-left: 0px;
     }
 
     .dropdown-option2 img {
-        width: 50px;
-        height: 20px;
+        width: 55px;
+        height: 25px;
         margin-left: 5px;
     }
 
     .dropdown-label3 img {
-        width: 70px;
-        height: 35px;
+        width: 80px;
+        height: 40px;
         margin-left: -10px;
         margin-right: 10px;
     }
@@ -1039,18 +1045,18 @@ footer {
     }
 
     .dropdown-label4 img {
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 60px;
     }
 
     .dropdown-option4 img {
         width: 50px;
-        height: 50px;
+        height: 60px;
     }
 
     .checkout-section {
-        max-width: 340px;
-        margin-left: 150px;
+        max-width: 450px;
+        margin-left: 270px;
     }
 
     .price {
@@ -1088,102 +1094,102 @@ footer {
     }
 
     .full-section1 {
-        height: 90vh;
+        height: 70vh;
     }
 
     .reviews-container {
         gap: 20px;
-        max-width: 1800px;
+        max-width: 1500px;
         margin: auto;
-        margin-top: 50px;
-        margin-left: 70px;
+        margin-top: 80px;
+        margin-left: 60px;
     }
 
     .review-summary h2 {
-        font-size: 15px;
-        margin: 5px 0px 5px -20px;
+        font-size: 30px;
+        margin: 50px 0px 5px -20px;
     }
 
     .stars {
-        font-size: 20px;
+        font-size: 30px;
         margin-bottom: 5px;
         margin-left: -20px;
     }
 
     .review-summary p {
-        font-size: 17px;
+        font-size: 20px;
         margin-left: -20px;
     }
 
     .review-summary img {
-        width: 100px;
+        width: 150px;
         margin-left: -20px;
     }
 
     .review-card {
-        min-width: 150px;
-        max-width: 150px;
-        padding: 15px;
+        min-width: 230px;
+        max-width: 230px;
+        padding: 20px;
     }
 
-    .review-card img.profile {
-        width: 40px;
-        height: 40px;
+    .review-card img .profile {
+        width: 30px;
+        height: 30px;
     }
 
     .review-card .name {
         margin-left: 0px;
-        font-size: 11px;
+        font-size: 15px;
     }
 
     .review-card .date {
-        font-size: 10px;
+        font-size: 13px;
         font-weight: bold;
-        margin-top: 4px;
+        margin-top: 5px;
     }
 
     .review-card .stars {
         margin: -2px 0;
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .review-card p {
-        font-size: 10px;
+        font-size: 12px;
         font-weight: bold;
         margin-top: 10px;
     }
 
     .full-section2 img {
-        width: 350px;
-        height: 300px;
+        width: 450px;
+        height: 450px;
         border-radius: 20px;
         margin-top: -10px;
-        margin-left: 600px;
+        margin-left: 830px;
     }
 
     .last-card {
         position: absolute;
         width: 700px;
         height: 650px;
-        margin-top: 350px;
-        margin-left: 50px;
+        margin-top: 150px;
+        margin-left: 170px;
     }
 
     .last-card h3 {
-        font-size: 34px;
-        width: 400px;
+        font-size: 60px;
+        width: 500px;
     }
 
     .last-card p {
-        font-size: 13px;
-        width: 450px;
+        font-size: 17px;
+        width: 500px;
         margin-top: 10px;
     }
 
     .features {
         padding: 30px;
-        max-width: 1100px;
-        margin-left: 80px;
+        max-width: 1500px;
+        margin-left: 120px;
     }
 
     .feature i {
@@ -1210,45 +1216,47 @@ footer {
 
     .footer-section-brand {
         margin-left: -200px;
-        padding-left: 130px;
+        padding-left: 250px;
         width: 300px;
         height: 150px;
     }
 
     .footer-section-brand img {
-        margin-left: -20px;
+        margin-left: -50px;
         margin-top: -60px;
-        width: 340px;
-        height: 200px;
+        width: 380px;
+        height: 230px;
     }
 
     .footer-section-brand p {
-        font-size: 13px;
+        font-size: 15px;
         margin-top: -70px;
-        margin-left: 50px;
-        width: 200px;
+        margin-left: 30px;
+        width: 230px;
     }
 
     .footer-section {
         min-width: 100px;
-        margin: 15px;
+        padding-left: 20px;
+        margin: 30px;
     }
 
     .footer-section h3 {
-        font-size: 15px;
+        font-size: 17px;
     }
 
     .footer-section ul li a {
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .footer-section p {
-        font-size: 13px;
+        font-size: 15px;
+        width: 250px;
     }
 
     .social-icons a {
         color: white;
         margin-right: 10px;
-        font-size: 20px;
+        font-size: 25px;
     }
 }
