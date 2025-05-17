@@ -1743,10 +1743,10 @@ footer {
     }
 
     .overlay-image1 {
-        top: 150px;
+        top: 230px;
         left: 50px;
-        max-height: 90px;
-        max-width: 90px;
+        max-height: 100px;
+        max-width: 100px;
     }
 
     .stock1 {
@@ -1791,10 +1791,10 @@ footer {
     }
 
     .overlay-image2 {
-        top: 220px;
+        top: 320px;
         left: 150px;
-        max-height: 90px;
-        max-width: 90px;
+        max-height: 100px;
+        max-width: 100px;
     }
 
     .stock2 {
